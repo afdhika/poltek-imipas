@@ -1,9 +1,9 @@
-# 🏛️ PROYEK Frontend POLTEKIP - Catatan Presentasi
+# 🏛️ PROYEK Frontend POLTEKIMIPAS - Catatan Presentasi
 
 ---
 
 ## 📋 **Ikhtisar Proyek**
-**Website POLTEKIP - Politeknik Ilmu Pemasyarakatan**
+**Website POLTEKIP - Politeknik Imigrasi dan Pemasyarakatan Indonesia**
 - Website institusional resmi untuk perguruan tinggi vokasi di bawah Kementerian Imigrasi dan Pemasyarakatan RI
 - Tagline: "Cerdas, Berintegritas, Berdedikasi"
 - Platform: Aplikasi web modern dengan framework Next.js
