@@ -1,10 +1,12 @@
 "use client"
 
 import { Clock, User, ArrowRight } from "lucide-react"
+import Link from "next/link"
 
 const posts = [
   {
     id: 1,
+    slug: "transformasi-digital-sistem-pemasyarakatan",
     author: "Dr. Haryono, M.Si.",
     authorInitial: "H",
     readTime: "5 menit",
@@ -15,6 +17,7 @@ const posts = [
   },
   {
     id: 2,
+    slug: "pendekatan-humanis-bimbingan-kemasyarakatan",
     author: "Dra. Siti Rahayu, M.Hum.",
     authorInitial: "S",
     readTime: "7 menit",
@@ -25,6 +28,7 @@ const posts = [
   },
   {
     id: 3,
+    slug: "urgensi-pembaruan-regulasi-pemasyarakatan",
     author: "Bambang Supriyadi, S.H., M.H.",
     authorInitial: "B",
     readTime: "4 menit",
@@ -35,6 +39,7 @@ const posts = [
   },
   {
     id: 4,
+    slug: "implementasi-smart-prison-konsep-dan-tantangan",
     author: "Dr. Ahmad Fauzi, M.T.",
     authorInitial: "A",
     readTime: "6 menit",
@@ -111,13 +116,26 @@ export default function Blog() {
                     </span>
                   ))}
                 </div>
-                <button className="flex items-center gap-1 text-sm font-semibold text-navy transition-colors hover:text-gold">
+                <Link
+                  href={`/blog/${post.slug}`}
+                  className="flex items-center gap-1 text-sm font-semibold text-navy transition-colors hover:text-gold"
+                >
                   Baca
                   <ArrowRight className="h-3.5 w-3.5 transition-transform group-hover:translate-x-1" />
-                </button>
+                </Link>
               </div>
             </article>
           ))}
+        </div>
+
+        <div className="scroll-reveal mt-10 text-center">
+          <Link 
+            href="/blog"
+            className="inline-flex items-center gap-2 rounded-lg border-2 border-navy px-6 py-3 text-sm font-semibold text-navy transition-all hover:bg-navy hover:text-primary-foreground"
+          >
+            Lihat Semua Blog
+            <ArrowRight className="h-4 w-4" />
+          </Link>
         </div>
       </div>
     </section>
