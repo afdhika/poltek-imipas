@@ -1,6 +1,7 @@
 "use client"
 
 import { Calendar, ArrowRight, Tag } from "lucide-react"
+import Link from "next/link"
 
 const articles = [
   {
@@ -11,6 +12,7 @@ const articles = [
     title: "Upacara Pelantikan Taruna Baru Angkatan XXXII POLTEKIP",
     excerpt:
       "Sebanyak 350 taruna dan taruni baru resmi dilantik dalam upacara yang dihadiri langsung oleh Menteri Imigrasi dan Pemasyarakatan RI.",
+    slug: "upacara-pelantikan-taruna-baru-angkatan-xxxii-poltekip",
   },
   {
     id: 2,
@@ -20,6 +22,7 @@ const articles = [
     title: "Workshop Penulisan Karya Ilmiah untuk Dosen dan Taruna",
     excerpt:
       "POLTEKIP menyelenggarakan workshop penulisan karya ilmiah bertaraf internasional bekerja sama dengan Universitas Indonesia.",
+    slug: "workshop-penulisan-karya-ilmiah-untuk-dosen-dan-taruna",
   },
   {
     id: 3,
@@ -29,6 +32,7 @@ const articles = [
     title: "Kunjungan Kerja Dirjen Pemasyarakatan ke Kampus POLTEKIP",
     excerpt:
       "Direktur Jenderal Pemasyarakatan melakukan kunjungan kerja untuk meninjau fasilitas pendidikan dan sarana prasarana kampus.",
+    slug: "kunjungan-kerja-dirjen-pemasyarakatan-ke-kampus-poltekip",
   },
 ]
 
@@ -87,10 +91,13 @@ export default function News() {
                   {article.excerpt}
                 </p>
 
-                <button className="flex items-center gap-1.5 text-sm font-semibold text-navy transition-colors hover:text-gold">
+                <Link 
+                  href={`/berita/${article.slug}`}
+                  className="flex items-center gap-1.5 text-sm font-semibold text-navy transition-colors hover:text-gold"
+                >
                   Baca Selengkapnya
                   <ArrowRight className="h-4 w-4 transition-transform group-hover:translate-x-1" />
-                </button>
+                </Link>
               </div>
             </article>
           ))}
