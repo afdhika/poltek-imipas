@@ -2,10 +2,12 @@
 
 import { useState } from "react"
 import { ExternalLink, Filter, FileText, Send } from "lucide-react"
+import Link from "next/link"
 
 const journals = [
   {
     id: 1,
+    slug: "analisis-efektivitas-program-pembinaan-narapidana",
     title: "Analisis Efektivitas Program Pembinaan Narapidana di Lapas Kelas I",
     author: "Dr. Haryono, M.Si., Siti Rahayu, M.Hum.",
     volume: "Vol. 12 No. 1",
@@ -15,6 +17,7 @@ const journals = [
   },
   {
     id: 2,
+    slug: "penerapan-sistem-keamanan-berbasis-iot",
     title: "Penerapan Sistem Keamanan Berbasis IoT pada Lembaga Pemasyarakatan",
     author: "Ahmad Fauzi, M.T., Bambang S., S.H.",
     volume: "Vol. 12 No. 1",
@@ -24,6 +27,7 @@ const journals = [
   },
   {
     id: 3,
+    slug: "model-bimbingan-kemasyarakatan-anak-berkonflik-hukum",
     title: "Model Bimbingan Kemasyarakatan untuk Anak Berkonflik dengan Hukum",
     author: "Dra. Siti Rahayu, M.Hum., Dr. Wulandari",
     volume: "Vol. 11 No. 2",
@@ -33,6 +37,7 @@ const journals = [
   },
   {
     id: 4,
+    slug: "evaluasi-kebijakan-asimilasi-integrasi-pandemi",
     title: "Evaluasi Kebijakan Asimilasi dan Integrasi di Masa Pandemi",
     author: "Bambang Supriyadi, S.H., M.H.",
     volume: "Vol. 11 No. 2",
@@ -42,6 +47,7 @@ const journals = [
   },
   {
     id: 5,
+    slug: "optimalisasi-pengawasan-berbasis-teknologi-balai-pemasyarakatan",
     title: "Optimalisasi Pengawasan Berbasis Teknologi di Balai Pemasyarakatan",
     author: "Ahmad Fauzi, M.T., Eko Prasetyo, S.T.",
     volume: "Vol. 11 No. 1",
@@ -137,15 +143,25 @@ export default function Journal() {
                   <p className="text-sm text-muted-foreground">{journal.author}</p>
                 </div>
 
-                <a
-                  href={`https://doi.org/${journal.doi}`}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="inline-flex shrink-0 items-center gap-1.5 rounded-lg border border-navy px-4 py-2 text-sm font-medium text-navy transition-all hover:bg-navy hover:text-primary-foreground"
-                >
-                  <ExternalLink className="h-3.5 w-3.5" />
-                  DOI
-                </a>
+                <div className="flex gap-2">
+                  <Link
+                    href={`/jurnal/${journal.slug}`}
+                    className="inline-flex shrink-0 items-center gap-1.5 rounded-lg border border-navy px-4 py-2 text-sm font-medium text-navy transition-all hover:bg-navy hover:text-primary-foreground"
+                  >
+                    <FileText className="h-3.5 w-3.5" />
+                    Detail
+                  </Link>
+                  
+                  <a
+                    href={`https://doi.org/${journal.doi}`}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-flex shrink-0 items-center gap-1.5 rounded-lg border border-gold px-4 py-2 text-sm font-medium text-navy transition-all hover:bg-gold hover:text-primary-foreground"
+                  >
+                    <ExternalLink className="h-3.5 w-3.5" />
+                    DOI
+                  </a>
+                </div>
               </div>
             </div>
           ))}
@@ -157,18 +173,14 @@ export default function Journal() {
           )}
         </div>
 
-        {/* Submit CTA */}
-        <div className="scroll-reveal mt-10 rounded-xl bg-navy p-8 text-center">
-          <h3 className="mb-2 text-xl font-bold text-primary-foreground" style={{ fontFamily: "var(--font-poppins)" }}>
-            Kirim Jurnal Anda
-          </h3>
-          <p className="mb-4 text-sm text-primary-foreground/70">
-            Kontribusikan karya ilmiah Anda untuk diterbitkan di Jurnal Ilmiah POLTEKIP.
-          </p>
-          <button className="inline-flex items-center gap-2 rounded-lg bg-gold px-6 py-3 text-sm font-semibold text-navy-dark transition-all hover:bg-gold-light hover:shadow-lg">
-            <Send className="h-4 w-4" />
-            Submit Jurnal
-          </button>
+        <div className="scroll-reveal mt-10 text-center">
+          <Link 
+            href="/jurnal"
+            className="inline-flex items-center gap-2 rounded-lg border-2 border-navy px-6 py-3 text-sm font-semibold text-navy transition-all hover:bg-navy hover:text-primary-foreground"
+          >
+            Lihat Semua Jurnal
+            <FileText className="h-4 w-4" />
+          </Link>
         </div>
       </div>
     </section>
