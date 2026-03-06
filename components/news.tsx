@@ -36,7 +36,7 @@ const articles = [
   },
   {
     id: 4,
-    image: "/images/news-1.jpg",
+    image: "/images/gallery-4.jpg",
     category: "Kegiatan Taruna",
     date: "20 Januari 2026",
     title: "Latihan Baris Berbaris Taruna Angkatan XXXII POLTEKIP",

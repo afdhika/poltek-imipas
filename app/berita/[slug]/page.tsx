@@ -157,7 +157,7 @@ const articles = {
     title: "Latihan Baris Berbaris Taruna Angkatan XXXII POLTEKIP",
     subtitle:
       "Taruna dan taruni Angkatan XXXII mengikuti latihan baris berbaris sebagai bagian dari pembinaan karakter dan disiplin.",
-    image: "/images/gallery-1.jpg",
+    image: "/images/gallery-4.jpg",
     author: {
       name: "Tim Liputan POLTEKIP",
       role: "Tim Dokumentasi",
@@ -303,7 +303,7 @@ const related = [
   },
   {
     id: 4,
-    image: "/images/gallery-1.jpg",
+    image: "/images/gallery-5.jpg",
     category: "Kegiatan Taruna",
     date: "20 Januari 2026",
     title: "Latihan Baris Berbaris Taruna Angkatan XXXII POLTEKIP",
