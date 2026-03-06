@@ -254,7 +254,7 @@ const books = [
       "Bab 8: Best Practices"
     ],
     fullDescription: `
-      <p class="mb-4">Panduan teknis ini disusun oleh tim dosen Teknik Pemasyarakatan POLTEKIP untuk memberikan acuan praktis dalam pelaksanaan pengawasan lembaga pemasyarakatan. Setiap prosedur didasarkan pada best practices dan regulasi terkini.</p>
+      <p class="mb-4">Panduan teknis ini disusun oleh tim dosen Teknik Pemasyarakatan POLTEKIMIPAS untuk memberikan acuan praktis dalam pelaksanaan pengawasan lembaga pemasyarakatan. Setiap prosedur didasarkan pada best practices dan regulasi terkini.</p>
       
       <h3 class="text-xl font-bold mb-3 mt-6">Cakupan Panduan</h3>
       <p class="mb-4">Panduan ini mencakup semua aspek pengawasan, mulai dari perencanaan hingga evaluasi, dengan fokus pada efektivitas dan keamanan.</p>
@@ -552,7 +552,7 @@ export default function BookDetailPage({ params }: { params: Promise<{ slug: str
           </div>
 
           <div className="text-center text-sm text-muted-foreground mt-6">
-            <p>© 2024 POLTEKIP. Semua hak dilindungi.</p>
+            <p>© 2024 POLTEKIMIPAS. Semua hak dilindungi.</p>
           </div>
         </footer>
       </article>

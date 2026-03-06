@@ -102,7 +102,7 @@ export default function SplashIntro({ onComplete }: { onComplete: () => void }) 
 
         {/* POLTEKIP letters */}
         <div className="mt-6 flex items-center gap-0.5 overflow-hidden">
-          {"POLTEKIP".split("").map((char, i) => (
+          {"POLTEKIMIPAS".split("").map((char, i) => (
             <span
               key={i}
               className="inline-block text-3xl font-extrabold tracking-[0.15em] text-primary-foreground md:text-5xl transition-all duration-500"

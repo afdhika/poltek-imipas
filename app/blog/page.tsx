@@ -147,13 +147,13 @@ export default function BlogPage() {
             className="text-4xl font-bold text-navy mb-4"
             style={{ fontFamily: "var(--font-poppins)" }}
           >
-            Blog POLTEKIP
+            Blog POLTEKIMIPAS
           </h1>
           
           <div className="mx-auto h-1 w-16 rounded-full bg-gold mb-4" />
           
           <p className="text-muted-foreground max-w-2xl mx-auto">
-            Tulisan editorial dan opini dari para dosen, staf, dan civitas akademika POLTEKIP
+            Tulisan editorial dan opini dari para dosen, staf, dan civitas akademika POLTEKIMIPAS
           </p>
         </div>
 

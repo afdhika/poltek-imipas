@@ -227,7 +227,7 @@ export default function BlogPostPage({ params }: { params: Promise<{ slug: strin
           </div>
 
           <div className="text-center text-sm text-muted-foreground">
-            <p>© 2024 POLTEKIP. Semua hak dilindungi.</p>
+            <p>© 2024 POLTEKIMIPAS. Semua hak dilindungi.</p>
           </div>
         </footer>
       </article>

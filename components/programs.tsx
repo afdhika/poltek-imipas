@@ -47,7 +47,7 @@ export default function Programs() {
           </h2>
           <div className="mx-auto mt-4 h-1 w-16 rounded-full bg-gold" />
           <p className="mx-auto mt-4 max-w-2xl text-muted-foreground">
-            POLTEKIP menyelenggarakan tiga program studi diploma empat (D-IV) yang
+            POLTEKIMIPAS menyelenggarakan tiga program studi diploma empat (D-IV) yang
             dirancang untuk menghasilkan tenaga profesional di bidang pemasyarakatan.
           </p>
         </div>

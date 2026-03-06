@@ -20,7 +20,7 @@ const announcements = [
     ],
     content: `
       <h3 class="text-xl font-bold mb-4 mt-6">PENGUMUMAN</h3>
-      <p class="mb-4">Diberitahukan kepada seluruh calon taruna bahwa pendaftaran Seleksi Penerimaan Taruna Baru POLTEKIP Tahun Akademik 2026/2027 telah resmi dibuka mulai tanggal 1 Maret 2026.</p>
+      <p class="mb-4">Diberitahukan kepada seluruh calon taruna bahwa pendaftaran Seleksi Penerimaan Taruna Baru POLTEKIMIPAS Tahun Akademik 2026/2027 telah resmi dibuka mulai tanggal 1 Maret 2026.</p>
       
       <h3 class="text-xl font-bold mb-4 mt-6">JADWAL PENDAFTARAN</h3>
       <ul class="list-disc pl-6 mb-4 space-y-2">
@@ -56,7 +56,7 @@ const announcements = [
       <ol class="list-decimal pl-6 mb-4 space-y-2">
         <li>Akses portal SSCASN di sscasn.bkn.go.id</li>
         <li>Buat akun dan lengkapi data diri</li>
-        <li>Pilih POLTEKIP sebagai pilihan institusi</li>
+        <li>Pilih POLTEKIMIPAS sebagai pilihan institusi</li>
         <li>Upload semua dokumen yang diperlukan</li>
         <li>Cetak kartu pendaftaran</li>
         <li>Ikuti tahapan seleksi sesuai jadwal</li>
@@ -65,8 +65,8 @@ const announcements = [
       <h3 class="text-xl font-bold mb-4 mt-6">KONTAK INFORMASI</h3>
       <p class="mb-4">Untuk informasi lebih lanjut, hubungi:</p>
       <ul class="list-disc pl-6 mb-4 space-y-2">
-        <li>Website: www.poltekip.ac.id</li>
-        <li>Email: penerimaan@poltekip.ac.id</li>
+        <li>Website: www.poltekimipas.ac.id</li>
+        <li>Email: penerimaan@poltekimipas.ac.id</li>
         <li>Telepon: (021) 1234-5678</li>
         <li>WhatsApp: 0812-3456-7890</li>
       </ul>
@@ -130,7 +130,7 @@ const announcements = [
   {
     id: 3,
     date: "20 Februari 2026",
-    title: "Pengumuman Hasil Seleksi Beasiswa Unggulan POLTEKIP",
+    title: "Pengumuman Hasil Seleksi Beasiswa Unggulan POLTEKIMIPAS",
     priority: false,
     description: "Hasil seleksi beasiswa unggulan tahun akademik 2026/2027 telah diumumkan. Silakan cek nama Anda pada daftar terlampir.",
     publishDate: "2026-02-20",
@@ -142,7 +142,7 @@ const announcements = [
     ],
     content: `
       <h3 class="text-xl font-bold mb-4 mt-6">PENGUMUMAN BEASISWA UNGGULAN</h3>
-      <p class="mb-4">Bersama ini diumumkan hasil seleksi Beasiswa Unggulan POLTEKIP Tahun Akademik 2026/2027. Seleksi telah melalui tahapan administrasi, akademik, dan wawancara.</p>
+      <p class="mb-4">Bersama ini diumumkan hasil seleksi Beasiswa Unggulan POLTEKIMIPAS Tahun Akademik 2026/2027. Seleksi telah melalui tahapan administrasi, akademik, dan wawancara.</p>
       
       <h3 class="text-xl font-bold mb-4 mt-6">HASIL SELEKSI</h3>
       <p class="mb-4">Dari 150 pendaftar, telah dipilih 50 penerima beasiswa unggulan dengan rincian:</p>
@@ -193,7 +193,7 @@ const announcements = [
     ],
     content: `
       <h3 class="text-xl font-bold mb-4 mt-6">PERINGATAN HARI PEMASYARAKATAN NASIONAL KE-62</h3>
-      <p class="mb-4">Dalam rangka memperingati Hari Pemasyarakatan Nasional ke-62, POLTEKIP akan menyelenggarakan rangkaian kegiatan dengan tema "Pemasyarakatan Berdedikasi untuk Indonesia Maju".</p>
+      <p class="mb-4">Dalam rangka memperingati Hari Pemasyarakatan Nasional ke-62, POLTEKIMIPAS akan menyelenggarakan rangkaian kegiatan dengan tema "Pemasyarakatan Berdedikasi untuk Indonesia Maju".</p>
       
       <h3 class="text-xl font-bold mb-4 mt-6">TEMA DAN SUBTEMA</h3>
       <ul class="list-disc pl-6 mb-4 space-y-2">
@@ -235,7 +235,7 @@ const announcements = [
       <h3 class="text-xl font-bold mb-4 mt-6">PESERTA DAN REGISTRASI</h3>
       <p class="mb-4">Kegiatan terbuka untuk:</p>
       <ul class="list-disc pl-6 mb-4 space-y-2">
-        <li>Seluruh civitas akademika POLTEKIP</li>
+        <li>Seluruh civitas akademika POLTEKIMIPAS</li>
         <li>Praktisi pemasyarakatan se-Indonesia</li>
         <li>Mahasiswa dan umum</li>
       </ul>
@@ -319,13 +319,13 @@ export default function AnnouncementsPage() {
             className="text-4xl font-bold text-navy mb-4"
             style={{ fontFamily: "var(--font-poppins)" }}
           >
-            Pengumuman POLTEKIP
+            Pengumuman POLTEKIMIPAS
           </h1>
           
           <div className="mx-auto h-1 w-16 rounded-full bg-gold mb-4" />
           
           <p className="text-muted-foreground max-w-2xl mx-auto">
-            Informasi resmi dan pengumuman penting dari POLTEKIP untuk civitas akademika dan masyarakat
+            Informasi resmi dan pengumuman penting dari POLTEKIMIPAS untuk civitas akademika dan masyarakat
           </p>
         </div>
 

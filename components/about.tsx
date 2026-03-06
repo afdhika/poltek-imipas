@@ -31,13 +31,13 @@ export default function About() {
           {/* Left - Description */}
           <div>
             <p className="mb-6 leading-relaxed text-muted-foreground">
-              Politeknik Ilmu Pemasyarakatan (POLTEKIP) adalah perguruan tinggi kedinasan
+              Politeknik Ilmu Pemasyarakatan (POLTEKIMIPAS) adalah perguruan tinggi kedinasan
               yang berada di bawah naungan Kementerian Imigrasi dan Pemasyarakatan Republik
-              Indonesia. Sejak didirikan pada tahun 1964, POLTEKIP telah mencetak ribuan
+              Indonesia. Sejak didirikan pada tahun 1964, POLTEKIMIPAS telah mencetak ribuan
               lulusan yang berdedikasi dalam bidang pemasyarakatan dan bimbingan kemasyarakatan.
             </p>
             <p className="mb-8 leading-relaxed text-muted-foreground">
-              Dengan mengusung tagline &ldquo;Cerdas, Berintegritas, Berdedikasi&rdquo;, POLTEKIP
+              Dengan mengusung tagline &ldquo;Cerdas, Berintegritas, Berdedikasi&rdquo;, POLTEKIMIPAS
               berkomitmen untuk menghasilkan sumber daya manusia yang profesional, berkarakter,
               dan siap menghadapi tantangan di era modern.
             </p>

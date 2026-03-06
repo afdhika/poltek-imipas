@@ -15,11 +15,11 @@ const poppins = Poppins({
 })
 
 export const metadata: Metadata = {
-  title: "POLTEKIP - Politeknik Ilmu Pemasyarakatan",
+  title: "POLTEKIMIPAS - Politeknik Ilmu Pemasyarakatan",
   description:
-    "Politeknik Ilmu Pemasyarakatan (POLTEKIP) - Perguruan Tinggi Vokasi di bawah Kementerian Imigrasi dan Pemasyarakatan RI. Cerdas, Berintegritas, Berdedikasi.",
+    "Politeknik Ilmu Pemasyarakatan (POLTEKIMIPAS) - Perguruan Tinggi Vokasi di bawah Kementerian Imigrasi dan Pemasyarakatan RI. Cerdas, Berintegritas, Berdedikasi.",
   keywords: [
-    "POLTEKIP",
+    "POLTEKIMIPAS",
     "Politeknik Ilmu Pemasyarakatan",
     "Kemenimipas",
     "Perguruan Tinggi",

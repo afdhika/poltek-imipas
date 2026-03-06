@@ -57,7 +57,7 @@ export default function Hero() {
       <div className="absolute inset-0">
         <img
           src="/images/hero-bg.jpg"
-          alt="Kampus POLTEKIP"
+          alt="Kampus POLTEKIMIPAS"
           className={`h-full w-full object-cover ${loaded ? "animate-slow-zoom" : ""}`}
         />
         <div className="absolute inset-0 bg-navy-dark/75" />

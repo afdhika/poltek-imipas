@@ -277,7 +277,7 @@ export default function JournalDetailPage({ params }: { params: Promise<{ slug: 
           </div>
 
           <div className="text-center text-sm text-muted-foreground mt-6">
-            <p>© 2024 POLTEKIP. Semua hak dilindungi.</p>
+            <p>© 2024 POLTEKIMIPAS. Semua hak dilindungi.</p>
           </div>
         </footer>
       </article>

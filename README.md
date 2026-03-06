@@ -1,9 +1,9 @@
-# 🏛️ PROYEK Frontend POLTEKIP - Catatan Presentasi
+# 🏛️ PROYEK Frontend POLTEKIMIPAS - Catatan Presentasi
 
 ---
 
 ## 📋 **Ikhtisar Proyek**
-**Website POLTEKIP - Politeknik Ilmu Pemasyarakatan**
+**Website POLTEKIMIPAS - Politeknik Ilmu Pemasyarakatan**
 - Website institusional resmi untuk perguruan tinggi vokasi di bawah Kementerian Imigrasi dan Pemasyarakatan RI
 - Tagline: "Cerdas, Berintegritas, Berdedikasi"
 - Platform: Aplikasi web modern dengan framework Next.js
@@ -132,7 +132,7 @@
 
 ### **Struktur Proyek**
 ```
-poltekip-frontend/
+poltekimipas-frontend/
 ├── app/                    # Next.js App Router
 │   ├── globals.css        # Global styles & CSS variables
 │   ├── layout.tsx         # Root layout dengan metadata
@@ -299,7 +299,7 @@ poltekip-frontend/
 
 ## 🏆 **Kesimpulan**
 
-Website POLTEKIP ini merupakan **aplikasi siap produksi** dengan:
+Website POLTEKIMIPAS ini merupakan **aplikasi siap produksi** dengan:
 - **Teknologi Stack Modern**: Next.js 16 + React 19
 - **Fitur Komprehensif**: 74+ komponen, bagian lengkap
 - **Desain Profesional**: Branding & UX yang konsisten
@@ -311,5 +311,5 @@ Proyek ini siap untuk deployment produksi dan dapat dikembangkan lebih lanjut se
 ---
 
 *Dibuat: Maret 2026*
-*Proyek: POLTEKIP Frontend*
+*Proyek: POLTEKIMIPAS Frontend*
 *Framework: Next.js 16.1.6*

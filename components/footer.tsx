@@ -347,7 +347,7 @@ export default function Footer() {
               <a href="#beranda" className="footer-logo-wrap">
                 <div className="footer-logo-badge">P</div>
                 <div>
-                  <div className="footer-logo-name">POLTEKIP</div>
+                  <div className="footer-logo-name">POLTEKIMIPAS</div>
                   <div className="footer-logo-sub">Politeknik Ilmu Pemasyarakatan</div>
                 </div>
               </a>
@@ -382,7 +382,7 @@ export default function Footer() {
                   <div className="contact-icon-wrap">
                     <Mail style={{ width: 14, height: 14, color: "#c9a34f" }} />
                   </div>
-                  <span className="contact-text">info@poltekip.ac.id</span>
+                  <span className="contact-text">info@poltekimipas.ac.id</span>
                 </div>
               </div>
             </div>

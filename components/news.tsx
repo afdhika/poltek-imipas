@@ -9,7 +9,7 @@ const articles = [
     image: "/images/news-1.jpg",
     category: "Kegiatan Taruna",
     date: "28 Februari 2026",
-    title: "Upacara Pelantikan Taruna Baru Angkatan XXXII POLTEKIP",
+    title: "Upacara Pelantikan Taruna Baru Angkatan XXXII POLTEKIMIPAS",
     excerpt:
       "Sebanyak 350 taruna dan taruni baru resmi dilantik dalam upacara yang dihadiri langsung oleh Menteri Imigrasi dan Pemasyarakatan RI.",
     slug: "upacara-pelantikan-taruna-baru-angkatan-xxxii-poltekip",
@@ -21,7 +21,7 @@ const articles = [
     date: "15 Februari 2026",
     title: "Workshop Penulisan Karya Ilmiah untuk Dosen dan Taruna",
     excerpt:
-      "POLTEKIP menyelenggarakan workshop penulisan karya ilmiah bertaraf internasional bekerja sama dengan Universitas Indonesia.",
+      "POLTEKIMIPAS menyelenggarakan workshop penulisan karya ilmiah bertaraf internasional bekerja sama dengan Universitas Indonesia.",
     slug: "workshop-penulisan-karya-ilmiah-untuk-dosen-dan-taruna",
   },
   {
@@ -29,7 +29,7 @@ const articles = [
     image: "/images/news-3.jpg",
     category: "Kebijakan",
     date: "5 Februari 2026",
-    title: "Kunjungan Kerja Dirjen Pemasyarakatan ke Kampus POLTEKIP",
+    title: "Kunjungan Kerja Dirjen Pemasyarakatan ke Kampus POLTEKIMIPAS",
     excerpt:
       "Direktur Jenderal Pemasyarakatan melakukan kunjungan kerja untuk meninjau fasilitas pendidikan dan sarana prasarana kampus.",
     slug: "kunjungan-kerja-dirjen-pemasyarakatan-ke-kampus-poltekip",
@@ -39,7 +39,7 @@ const articles = [
     image: "/images/gallery-4.jpg",
     category: "Kegiatan Taruna",
     date: "20 Januari 2026",
-    title: "Latihan Baris Berbaris Taruna Angkatan XXXII POLTEKIP",
+    title: "Latihan Baris Berbaris Taruna Angkatan XXXII POLTEKIMIPAS",
     excerpt:
       "Taruna dan taruni Angkatan XXXII mengikuti latihan baris berbaris sebagai bagian dari pembinaan karakter dan disiplin.",
     slug: "latihan-baris-berbaris-angkatan-xxxii-poltekip",
@@ -49,9 +49,9 @@ const articles = [
     image: "/images/gallery-2.jpg",
     category: "Prestasi",
     date: "15 Januari 2026",
-    title: "POLTEKIP Raih Peringkat Terbaik dalam Lomba Debat Nasional",
+    title: "POLTEKIMIPAS Raih Peringkat Terbaik dalam Lomba Debat Nasional",
     excerpt:
-      "Tim debat POLTEKIP berhasil meraih juara pertama dalam Lomba Debat Nasional Perguruan Tinggi Vokasi se-Indonesia.",
+      "Tim debat POLTEKIMIPAS berhasil meraih juara pertama dalam Lomba Debat Nasional Perguruan Tinggi Vokasi se-Indonesia.",
     slug: "poltekip-raih-peringkat-terbaik-lomba-debat-nasional",
   },
   {
@@ -61,7 +61,7 @@ const articles = [
     date: "10 Januari 2026",
     title: "MoU dengan Kementerian Hukum dan HAM untuk Program Magang",
     excerpt:
-      "POLTEKIP menjalin kerjasama dengan Kementerian Hukum dan HAM untuk program magang bagi taruna semester akhir.",
+      "POLTEKIMIPAS menjalin kerjasama dengan Kementerian Hukum dan HAM untuk program magang bagi taruna semester akhir.",
     slug: "mou-kemenkumham-program-magang",
   },
 ]

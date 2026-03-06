@@ -6,7 +6,7 @@ import Link from "next/link"
 const tickerItems = [
   { text: "Pendaftaran Seleksi Penerimaan Taruna Baru T.A. 2026/2027 telah dibuka!", id: 1 },
   { text: "Jadwal Ujian Akhir Semester Genap 2025/2026 telah tersedia.", id: 2 },
-  { text: "Pengumuman Hasil Seleksi Beasiswa Unggulan POLTEKIP.", id: 3 },
+  { text: "Pengumuman Hasil Seleksi Beasiswa Unggulan POLTEKIMIPAS.", id: 3 },
   { text: "Peringatan Hari Pemasyarakatan ke-62 akan dilaksanakan 27 April 2026.", id: 4 },
 ]
 

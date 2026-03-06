@@ -12,12 +12,12 @@ const articles = [
     date: "28 Februari 2026",
     readTime: "4 menit",
     views: 1284,
-    title: "Upacara Pelantikan Taruna Baru Angkatan XXXII POLTEKIP",
+    title: "Upacara Pelantikan Taruna Baru Angkatan XXXII POLTEKIMIPAS",
     excerpt:
       "Sebanyak 350 taruna dan taruni baru resmi dilantik dalam upacara yang dihadiri langsung oleh Menteri Imigrasi dan Pemasyarakatan RI.",
     slug: "upacara-pelantikan-taruna-baru-angkatan-xxxii-poltekip",
     tags: ["Pelantikan", "Taruna Baru", "Angkatan XXXII", "Upacara"],
-    author: "Biro Humas POLTEKIP"
+    author: "Biro Humas POLTEKIMIPAS"
   },
   {
     id: 2,
@@ -28,7 +28,7 @@ const articles = [
     views: 892,
     title: "Workshop Penulisan Karya Ilmiah untuk Dosen dan Taruna",
     excerpt:
-      "POLTEKIP menyelenggarakan workshop penulisan karya ilmiah bertaraf internasional bekerja sama dengan Universitas Indonesia.",
+      "POLTEKIMIPAS menyelenggarakan workshop penulisan karya ilmiah bertaraf internasional bekerja sama dengan Universitas Indonesia.",
     slug: "workshop-penulisan-karya-ilmiah-untuk-dosen-dan-taruna",
     tags: ["Workshop", "Karya Ilmiah", "Akademik", "Universitas Indonesia"],
     author: "Dr. Budi Santoso, M.Ed."
@@ -40,12 +40,12 @@ const articles = [
     date: "5 Februari 2026",
     readTime: "3 menit",
     views: 1567,
-    title: "Kunjungan Kerja Dirjen Pemasyarakatan ke Kampus POLTEKIP",
+    title: "Kunjungan Kerja Dirjen Pemasyarakatan ke Kampus POLTEKIMIPAS",
     excerpt:
       "Direktur Jenderal Pemasyarakatan melakukan kunjungan kerja untuk meninjau fasilitas pendidikan dan sarana prasarana kampus.",
     slug: "kunjungan-kerja-dirjen-pemasyarakatan-ke-kampus-poltekip",
     tags: ["Kunjungan", "Dirjen Pemasyarakatan", "Fasilitas", "Inspeksi"],
-    author: "Tim Humas POLTEKIP"
+    author: "Tim Humas POLTEKIMIPAS"
   },
   {
     id: 4,
@@ -54,12 +54,12 @@ const articles = [
     date: "20 Januari 2026",
     readTime: "6 menit",
     views: 2341,
-    title: "Latihan Baris Berbaris Taruna Angkatan XXXII POLTEKIP",
+    title: "Latihan Baris Berbaris Taruna Angkatan XXXII POLTEKIMIPAS",
     excerpt:
       "Taruna dan taruni Angkatan XXXII mengikuti latihan baris berbaris sebagai bagian dari pembinaan karakter dan disiplin.",
     slug: "latihan-baris-berbaris-angkatan-xxxii-poltekip",
     tags: ["Latihan", "Baris Berbaris", "Taruna", "Disiplin"],
-    author: "Tim Liputan POLTEKIP"
+    author: "Tim Liputan POLTEKIMIPAS"
   },
   {
     id: 5,
@@ -68,12 +68,12 @@ const articles = [
     date: "15 Januari 2026",
     readTime: "4 menit",
     views: 1876,
-    title: "POLTEKIP Raih Peringkat Terbaik dalam Lomba Debat Nasional",
+    title: "POLTEKIMIPAS Raih Peringkat Terbaik dalam Lomba Debat Nasional",
     excerpt:
-      "Tim debat POLTEKIP berhasil meraih juara pertama dalam Lomba Debat Nasional Perguruan Tinggi Vokasi se-Indonesia.",
+      "Tim debat POLTEKIMIPAS berhasil meraih juara pertama dalam Lomba Debat Nasional Perguruan Tinggi Vokasi se-Indonesia.",
     slug: "poltekip-raih-peringkat-terbaik-lomba-debat-nasional",
     tags: ["Prestasi", "Debat", "Juara", "Nasional"],
-    author: "Biro Humas POLTEKIP"
+    author: "Biro Humas POLTEKIMIPAS"
   },
   {
     id: 6,
@@ -84,10 +84,10 @@ const articles = [
     views: 1234,
     title: "MoU dengan Kementerian Hukum dan HAM untuk Program Magang",
     excerpt:
-      "POLTEKIP menjalin kerjasama dengan Kementerian Hukum dan HAM untuk program magang bagi taruna semester akhir.",
+      "POLTEKIMIPAS menjalin kerjasama dengan Kementerian Hukum dan HAM untuk program magang bagi taruna semester akhir.",
     slug: "mou-kemenkumham-program-magang",
     tags: ["MoU", "Kerjasama", "Magang", "Kemenkumham"],
-    author: "Biro Kerjasama POLTEKIP"
+    author: "Biro Kerjasama POLTEKIMIPAS"
   }
 ]
 
@@ -397,7 +397,7 @@ export default function BeritaPage() {
               </h1>
               <p className="text-xl text-white/90 max-w-3xl mx-auto leading-relaxed">
                 Dapatkan informasi terbaru tentang kegiatan akademik, prestasi, dan berita penting 
-                seputar POLTEKIP.
+                seputar POLTEKIMIPAS.
               </p>
             </div>
           </div>

@@ -428,7 +428,7 @@ export default function Navbar({ onSearchOpen }: NavbarProps) {
             <a href="#beranda" className="logo-wrap">
               <div className="logo-badge">P</div>
               <div className="hidden sm:block">
-                <div className="logo-text-main">POLTEKIP</div>
+                <div className="logo-text-main">POLTEKIMIPAS</div>
                 <div className="logo-text-sub">Politeknik Ilmu Pemasyarakatan</div>
               </div>
             </a>

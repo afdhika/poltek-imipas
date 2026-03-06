@@ -5,10 +5,10 @@ import { X, ZoomIn } from "lucide-react"
 
 const images = [
   { src: "/images/gallery-1.jpg", title: "Wisuda Taruna Angkatan XXXI", tall: true },
-  { src: "/images/gallery-2.jpg", title: "Upacara Bendera di Kampus POLTEKIP", tall: false },
+  { src: "/images/gallery-2.jpg", title: "Upacara Bendera di Kampus POLTEKIMIPAS", tall: false },
   { src: "/images/gallery-3.jpg", title: "Kegiatan Perkuliahan di Kelas", tall: false },
   { src: "/images/gallery-4.jpg", title: "Latihan Fisik Taruna dan Taruni", tall: true },
-  { src: "/images/gallery-5.jpg", title: "Perpustakaan Kampus POLTEKIP", tall: false },
+  { src: "/images/gallery-5.jpg", title: "Perpustakaan Kampus POLTEKIMIPAS", tall: false },
   { src: "/images/gallery-6.jpg", title: "Seminar Akademik Nasional", tall: false },
 ]
 

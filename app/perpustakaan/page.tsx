@@ -268,13 +268,13 @@ export default function LibraryPage() {
             className="text-4xl font-bold text-navy mb-4"
             style={{ fontFamily: "var(--font-poppins)" }}
           >
-            Perpustakaan Digital POLTEKIP
+            Perpustakaan Digital POLTEKIMIPAS
           </h1>
           
           <div className="mx-auto h-1 w-16 rounded-full bg-gold mb-4" />
           
           <p className="text-muted-foreground max-w-2xl mx-auto">
-            Koleksi buku digital, modul pelatihan, dan referensi ilmiah untuk mendukung pembelajaran di POLTEKIP
+            Koleksi buku digital, modul pelatihan, dan referensi ilmiah untuk mendukung pembelajaran di POLTEKIMIPAS
           </p>
         </div>
 

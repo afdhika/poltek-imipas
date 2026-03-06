@@ -10,9 +10,9 @@ interface SearchItem {
 }
 
 const searchData: SearchItem[] = [
-  { type: "article", title: "Upacara Pelantikan Taruna Baru Angkatan XXXII POLTEKIP", subtitle: "Berita - 28 Februari 2026" },
+  { type: "article", title: "Upacara Pelantikan Taruna Baru Angkatan XXXII POLTEKIMIPAS", subtitle: "Berita - 28 Februari 2026" },
   { type: "article", title: "Workshop Penulisan Karya Ilmiah untuk Dosen dan Taruna", subtitle: "Berita - 15 Februari 2026" },
-  { type: "article", title: "Kunjungan Kerja Dirjen Pemasyarakatan ke Kampus POLTEKIP", subtitle: "Berita - 5 Februari 2026" },
+  { type: "article", title: "Kunjungan Kerja Dirjen Pemasyarakatan ke Kampus POLTEKIMIPAS", subtitle: "Berita - 5 Februari 2026" },
   { type: "journal", title: "Analisis Efektivitas Program Pembinaan Narapidana di Lapas Kelas I", subtitle: "Jurnal - Vol. 12 No. 1 (2026)" },
   { type: "journal", title: "Penerapan Sistem Keamanan Berbasis IoT pada Lembaga Pemasyarakatan", subtitle: "Jurnal - Vol. 12 No. 1 (2026)" },
   { type: "journal", title: "Model Bimbingan Kemasyarakatan untuk Anak Berkonflik dengan Hukum", subtitle: "Jurnal - Vol. 11 No. 2 (2025)" },

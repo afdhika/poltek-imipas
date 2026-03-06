@@ -67,7 +67,7 @@ export default function Blog() {
           </h2>
           <div className="mx-auto mt-4 h-1 w-16 rounded-full bg-gold" />
           <p className="mx-auto mt-4 max-w-2xl text-muted-foreground">
-            Tulisan editorial dan opini dari para dosen, staf, dan civitas akademika POLTEKIP.
+            Tulisan editorial dan opini dari para dosen, staf, dan civitas akademika POLTEKIMIPAS.
           </p>
         </div>
 

@@ -102,13 +102,13 @@ export default function JournalPage() {
             className="text-4xl font-bold text-navy mb-4"
             style={{ fontFamily: "var(--font-poppins)" }}
           >
-            Jurnal Ilmiah POLTEKIP
+            Jurnal Ilmiah POLTEKIMIPAS
           </h1>
           
           <div className="mx-auto h-1 w-16 rounded-full bg-gold mb-4" />
           
           <p className="text-muted-foreground max-w-2xl mx-auto">
-            Kumpulan publikasi ilmiah dari dosen dan peneliti POLTEKIP dalam bidang pemasyarakatan
+            Kumpulan publikasi ilmiah dari dosen dan peneliti POLTEKIMIPAS dalam bidang pemasyarakatan
           </p>
         </div>
 
@@ -227,7 +227,7 @@ export default function JournalPage() {
             Kirim Jurnal Anda
           </h3>
           <p className="mb-4 text-sm text-primary-foreground/70">
-            Kontribusikan karya ilmiah Anda untuk diterbitkan di Jurnal Ilmiah POLTEKIP.
+            Kontribusikan karya ilmiah Anda untuk diterbitkan di Jurnal Ilmiah POLTEKIMIPAS.
           </p>
           <button className="inline-flex items-center gap-2 rounded-lg bg-gold px-6 py-3 text-sm font-semibold text-navy-dark transition-all hover:bg-gold-light hover:shadow-lg">
             <Send className="h-4 w-4" />

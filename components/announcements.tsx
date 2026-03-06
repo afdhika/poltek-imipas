@@ -23,7 +23,7 @@ const announcements = [
   {
     id: 3,
     date: "20 Februari 2026",
-    title: "Pengumuman Hasil Seleksi Beasiswa Unggulan POLTEKIP",
+    title: "Pengumuman Hasil Seleksi Beasiswa Unggulan POLTEKIMIPAS",
     priority: false,
     description:
       "Hasil seleksi beasiswa unggulan tahun akademik 2026/2027 telah diumumkan. Silakan cek nama Anda pada daftar terlampir.",

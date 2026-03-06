@@ -25,12 +25,12 @@ const articles = {
     date: "28 Februari 2026",
     readTime: "4 menit",
     views: 1284,
-    title: "Upacara Pelantikan Taruna Baru Angkatan XXXII POLTEKIP",
+    title: "Upacara Pelantikan Taruna Baru Angkatan XXXII POLTEKIMIPAS",
     subtitle:
       "Sebanyak 350 taruna dan taruni baru resmi dilantik dalam upacara yang dihadiri langsung oleh Menteri Imigrasi dan Pemasyarakatan RI.",
     image: "/images/gallery-1.jpg",
     author: {
-      name: "Biro Humas POLTEKIP",
+      name: "Biro Humas POLTEKIMIPAS",
       role: "Tim Redaksi",
       initial: "BH",
     },
@@ -38,11 +38,11 @@ const articles = {
     content: [
       {
         type: "paragraph",
-        text: "Politeknik Ilmu Pemasyarakatan (POLTEKIP) resmi melantik 350 taruna dan taruni baru Angkatan XXXII dalam upacara khidmat yang diselenggarakan di Lapangan Apel Kampus POLTEKIP, Gandul, Depok, Jawa Barat, pada Jumat 28 Februari 2026.",
+        text: "Politeknik Ilmu Pemasyarakatan (POLTEKIMIPAS) resmi melantik 350 taruna dan taruni baru Angkatan XXXII dalam upacara khidmat yang diselenggarakan di Lapangan Apel Kampus POLTEKIMIPAS, Gandul, Depok, Jawa Barat, pada Jumat 28 Februari 2026.",
       },
       {
         type: "paragraph",
-        text: "Upacara yang berlangsung sejak pukul 07.00 WIB ini dipimpin langsung oleh Direktur POLTEKIP dan dihadiri oleh Menteri Imigrasi dan Pemasyarakatan RI, Direktur Jenderal Pemasyarakatan, serta jajaran pejabat eselon I dan II Kementerian.",
+        text: "Upacara yang berlangsung sejak pukul 07.00 WIB ini dipimpin langsung oleh Direktur POLTEKIMIPAS dan dihadiri oleh Menteri Imigrasi dan Pemasyarakatan RI, Direktur Jenderal Pemasyarakatan, serta jajaran pejabat eselon I dan II Kementerian.",
       },
       {
         type: "quote",
@@ -67,11 +67,11 @@ const articles = {
       },
       {
         type: "paragraph",
-        text: "Direktur POLTEKIP dalam sambutannya menyampaikan bahwa angkatan XXXII ini merupakan angkatan dengan tingkat persaingan tertinggi dalam lima tahun terakhir, dengan rasio pendaftar dan yang diterima mencapai 1:47. Hal ini menunjukkan semakin tingginya minat masyarakat terhadap pendidikan kedinasan di bidang pemasyarakatan.",
+        text: "Direktur POLTEKIMIPAS dalam sambutannya menyampaikan bahwa angkatan XXXII ini merupakan angkatan dengan tingkat persaingan tertinggi dalam lima tahun terakhir, dengan rasio pendaftar dan yang diterima mencapai 1:47. Hal ini menunjukkan semakin tingginya minat masyarakat terhadap pendidikan kedinasan di bidang pemasyarakatan.",
       },
       {
         type: "paragraph",
-        text: "Upacara diakhiri dengan defile pasukan taruna yang menampilkan kekompakan dan kedisiplinan Angkatan XXXII, disambut tepuk tangan meriah dari para keluarga dan tamu undangan yang hadir. Para orang tua dan wali murid tampak bangga menyaksikan putra-putri mereka resmi menjadi bagian dari keluarga besar POLTEKIP.",
+        text: "Upacara diakhiri dengan defile pasukan taruna yang menampilkan kekompakan dan kedisiplinan Angkatan XXXII, disambut tepuk tangan meriah dari para keluarga dan tamu undangan yang hadir. Para orang tua dan wali murid tampak bangga menyaksikan putra-putri mereka resmi menjadi bagian dari keluarga besar POLTEKIMIPAS.",
       },
     ],
   },
@@ -84,7 +84,7 @@ const articles = {
     views: 892,
     title: "Workshop Penulisan Karya Ilmiah untuk Dosen dan Taruna",
     subtitle:
-      "POLTEKIP menyelenggarakan workshop penulisan karya ilmiah bertaraf internasional bekerja sama dengan Universitas Indonesia.",
+      "POLTEKIMIPAS menyelenggarakan workshop penulisan karya ilmiah bertaraf internasional bekerja sama dengan Universitas Indonesia.",
     image: "/images/news-2.jpg",
     author: {
       name: "Dr. Budi Santoso, M.Ed.",
@@ -95,7 +95,7 @@ const articles = {
     content: [
       {
         type: "paragraph",
-        text: "POLTEKIP kembali menyelenggarakan workshop penulisan karya ilmiah bertaraf internasional yang bertujuan untuk meningkatkan kapasitas dosen dan taruna dalam publikasi ilmiah.",
+        text: "POLTEKIMIPAS kembali menyelenggarakan workshop penulisan karya ilmiah bertaraf internasional yang bertujuan untuk meningkatkan kapasitas dosen dan taruna dalam publikasi ilmiah.",
       },
       {
         type: "paragraph",
@@ -118,12 +118,12 @@ const articles = {
     date: "5 Februari 2026",
     readTime: "3 menit",
     views: 1567,
-    title: "Kunjungan Kerja Dirjen Pemasyarakatan ke Kampus POLTEKIP",
+    title: "Kunjungan Kerja Dirjen Pemasyarakatan ke Kampus POLTEKIMIPAS",
     subtitle:
       "Direktur Jenderal Pemasyarakatan melakukan kunjungan kerja untuk meninjau fasilitas pendidikan dan sarana prasarana kampus.",
     image: "/images/news-3.jpg",
     author: {
-      name: "Tim Humas POLTEKIP",
+      name: "Tim Humas POLTEKIMIPAS",
       role: "Tim Liputan",
       initial: "TH",
     },
@@ -131,7 +131,7 @@ const articles = {
     content: [
       {
         type: "paragraph",
-        text: "Direktur Jenderal Pemasyarakatan melakukan kunjungan kerja ke Kampus POLTEKIP dalam rangka meninjau fasilitas pendidikan dan sarana prasarana yang ada.",
+        text: "Direktur Jenderal Pemasyarakatan melakukan kunjungan kerja ke Kampus POLTEKIMIPAS dalam rangka meninjau fasilitas pendidikan dan sarana prasarana yang ada.",
       },
       {
         type: "paragraph",
@@ -143,7 +143,7 @@ const articles = {
       },
       {
         type: "paragraph",
-        text: "Dirjen PAS menyampaikan apresiasi terhadap perkembangan POLTEKIP dan berkomitmen untuk terus mendukung pengembangan infrastruktur kampus.",
+        text: "Dirjen PAS menyampaikan apresiasi terhadap perkembangan POLTEKIMIPAS dan berkomitmen untuk terus mendukung pengembangan infrastruktur kampus.",
       },
     ],
   },
@@ -154,12 +154,12 @@ const articles = {
     date: "20 Januari 2026",
     readTime: "6 menit",
     views: 2341,
-    title: "Latihan Baris Berbaris Taruna Angkatan XXXII POLTEKIP",
+    title: "Latihan Baris Berbaris Taruna Angkatan XXXII POLTEKIMIPAS",
     subtitle:
       "Taruna dan taruni Angkatan XXXII mengikuti latihan baris berbaris sebagai bagian dari pembinaan karakter dan disiplin.",
     image: "/images/gallery-4.jpg",
     author: {
-      name: "Tim Liputan POLTEKIP",
+      name: "Tim Liputan POLTEKIMIPAS",
       role: "Tim Dokumentasi",
       initial: "TL",
     },
@@ -167,7 +167,7 @@ const articles = {
     content: [
       {
         type: "paragraph",
-        text: "Sebanyak 350 taruna dan taruni Angkatan XXXII POLTEKIP mengikuti latihan baris berbaris (PBB) rutin yang diselenggarakan di Lapangan Apel Kampus POLTEKIP, Gandul, Depok. Kegiatan ini merupakan bagian integral dari pembinaan karakter dan disiplin bagi calon pemasyarakatan profesional.",
+        text: "Sebanyak 350 taruna dan taruni Angkatan XXXII POLTEKIMIPAS mengikuti latihan baris berbaris (PBB) rutin yang diselenggarakan di Lapangan Apel Kampus POLTEKIMIPAS, Gandul, Depok. Kegiatan ini merupakan bagian integral dari pembinaan karakter dan disiplin bagi calon pemasyarakatan profesional.",
       },
       {
         type: "paragraph",
@@ -184,7 +184,7 @@ const articles = {
       {
         type: "quote",
         text: "Disiplin adalah fondasi utama seorang pemasyarakatan. Tanpa disiplin, tidak akan ada integritas dan profesionalisme dalam menjalankan tugas.",
-        source: "Komandan Latihan POLTEKIP",
+        source: "Komandan Latihan POLTEKIMIPAS",
       },
       {
         type: "paragraph",
@@ -199,12 +199,12 @@ const articles = {
     date: "15 Januari 2026",
     readTime: "4 menit",
     views: 1876,
-    title: "POLTEKIP Raih Peringkat Terbaik dalam Lomba Debat Nasional",
+    title: "POLTEKIMIPAS Raih Peringkat Terbaik dalam Lomba Debat Nasional",
     subtitle:
-      "Tim debat POLTEKIP berhasil meraih juara pertama dalam Lomba Debat Nasional Perguruan Tinggi Vokasi se-Indonesia.",
+      "Tim debat POLTEKIMIPAS berhasil meraih juara pertama dalam Lomba Debat Nasional Perguruan Tinggi Vokasi se-Indonesia.",
     image: "/images/gallery-2.jpg",
     author: {
-      name: "Biro Humas POLTEKIP",
+      name: "Biro Humas POLTEKIMIPAS",
       role: "Tim Prestasi",
       initial: "BH",
     },
@@ -212,7 +212,7 @@ const articles = {
     content: [
       {
         type: "paragraph",
-        text: "Tim debat Politeknik Ilmu Pemasyarakatan (POLTEKIP) berhasil meraih juara pertama dalam Lomba Debat Nasional Perguruan Tinggi Vokasi se-Indonesia yang diselenggarakan di Jakarta pada 15 Januari 2026. Ini merupakan prestasi membanggakan bagi POLTEKIP dan dunia pendidikan vokasi pemasyarakatan.",
+        text: "Tim debat Politeknik Ilmu Pemasyarakatan (POLTEKIMIPAS) berhasil meraih juara pertama dalam Lomba Debat Nasional Perguruan Tinggi Vokasi se-Indonesia yang diselenggarakan di Jakarta pada 15 Januari 2026. Ini merupakan prestasi membanggakan bagi POLTEKIMIPAS dan dunia pendidikan vokasi pemasyarakatan.",
       },
       {
         type: "paragraph",
@@ -224,15 +224,15 @@ const articles = {
       },
       {
         type: "paragraph",
-        text: "Kompetisi berlangsung selama tiga hari dengan sistem eliminasi. Tim POLTEKIP berhasil melaju ke babak final setelah mengalahkan tim dari berbagai perguruan tinggi ternama. Di babak final, mereka berhasil membawakan mosi tentang 'Reformasi Pemasyarakatan di Era Digital' dengan sangat baik.",
+        text: "Kompetisi berlangsung selama tiga hari dengan sistem eliminasi. Tim POLTEKIMIPAS berhasil melaju ke babak final setelah mengalahkan tim dari berbagai perguruan tinggi ternama. Di babak final, mereka berhasil membawakan mosi tentang 'Reformasi Pemasyarakatan di Era Digital' dengan sangat baik.",
       },
       {
         type: "quote",
-        text: "Kemenangan ini bukti bahwa taruna POLTEKIP tidak hanya unggul dalam aspek teknis, tetapi juga memiliki kemampuan analitis dan komunikasi yang excellent.",
-        source: "Direktur POLTEKIP",
+        text: "Kemenangan ini bukti bahwa taruna POLTEKIMIPAS tidak hanya unggul dalam aspek teknis, tetapi juga memiliki kemampuan analitis dan komunikasi yang excellent.",
+        source: "Direktur POLTEKIMIPAS",
       },
       {
-        text: "Prestasi ini membawa nama baik POLTEKIP di tingkat nasional dan membuktikan kualitas pendidikan vokasi pemasyarakatan yang diselenggarakan. Tim debat POLTEKIP akan mewakili Indonesia dalam kompetisi debat tingkat Asia Tenggara tahun depan.",
+        text: "Prestasi ini membawa nama baik POLTEKIMIPAS di tingkat nasional dan membuktikan kualitas pendidikan vokasi pemasyarakatan yang diselenggarakan. Tim debat POLTEKIMIPAS akan mewakili Indonesia dalam kompetisi debat tingkat Asia Tenggara tahun depan.",
       },
     ],
   },
@@ -245,10 +245,10 @@ const articles = {
     views: 1234,
     title: "MoU dengan Kementerian Hukum dan HAM untuk Program Magang",
     subtitle:
-      "POLTEKIP menjalin kerjasama dengan Kementerian Hukum dan HAM untuk program magang bagi taruna semester akhir.",
+      "POLTEKIMIPAS menjalin kerjasama dengan Kementerian Hukum dan HAM untuk program magang bagi taruna semester akhir.",
     image: "/images/gallery-3.jpg",
     author: {
-      name: "Biro Kerjasama POLTEKIP",
+      name: "Biro Kerjasama POLTEKIMIPAS",
       role: "Tim Hubungan Institusi",
       initial: "BK",
     },
@@ -256,7 +256,7 @@ const articles = {
     content: [
       {
         type: "paragraph",
-        text: "Politeknik Ilmu Pemasyarakatan (POLTEKIP) secara resmi menandatangani Memorandum of Understanding (MoU) dengan Kementerian Hukum dan HAM Republik Indonesia untuk program magang bagi taruna semester akhir. Penandatanganan dilaksanakan di Kampus POLTEKIP pada 10 Januari 2026.",
+        text: "Politeknik Ilmu Pemasyarakatan (POLTEKIMIPAS) secara resmi menandatangani Memorandum of Understanding (MoU) dengan Kementerian Hukum dan HAM Republik Indonesia untuk program magang bagi taruna semester akhir. Penandatanganan dilaksanakan di Kampus POLTEKIMIPAS pada 10 Januari 2026.",
       },
       {
         type: "paragraph",
@@ -277,7 +277,7 @@ const articles = {
       },
       {
         type: "paragraph",
-        text: "Melalui kerjasama ini, diharapkan dapat meningkatkan kualitas lulusan POLTEKIP dan memperkuat link and match antara pendidikan vokasi dengan kebutuhan industri. Program magang akan dimulai pada semester ganjil tahun ajaran 2026/2027.",
+        text: "Melalui kerjasama ini, diharapkan dapat meningkatkan kualitas lulusan POLTEKIMIPAS dan memperkuat link and match antara pendidikan vokasi dengan kebutuhan industri. Program magang akan dimulai pada semester ganjil tahun ajaran 2026/2027.",
       },
     ],
   },
@@ -298,7 +298,7 @@ const related = [
     image: "/images/news-3.jpg",
     category: "Kebijakan",
     date: "5 Februari 2026",
-    title: "Kunjungan Kerja Dirjen Pemasyarakatan ke Kampus POLTEKIP",
+    title: "Kunjungan Kerja Dirjen Pemasyarakatan ke Kampus POLTEKIMIPAS",
     slug: "kunjungan-kerja-dirjen-pemasyarakatan-ke-kampus-poltekip",
   },
   {
@@ -306,7 +306,7 @@ const related = [
     image: "/images/gallery-5.jpg",
     category: "Kegiatan Taruna",
     date: "20 Januari 2026",
-    title: "Latihan Baris Berbaris Taruna Angkatan XXXII POLTEKIP",
+    title: "Latihan Baris Berbaris Taruna Angkatan XXXII POLTEKIMIPAS",
     slug: "latihan-baris-berbaris-angkatan-xxxii-poltekip",
   },
 ]
@@ -627,7 +627,7 @@ export default function BeritaDetailPage({ params }: { params: Promise<{ slug: s
             <nav className="breadcrumb" aria-label="Breadcrumb">
               <a href="/">Beranda</a>
               <ChevronRight className="breadcrumb-sep h-3.5 w-3.5" />
-              <a href="/#berita">Berita</a>
+              <a href="/berita">Berita</a>
               <ChevronRight className="breadcrumb-sep h-3.5 w-3.5" />
               <span style={{ color: "#1B3A6B", fontWeight: 600, maxWidth: 220 }} className="truncate">
                 {article.title}
@@ -704,7 +704,7 @@ export default function BeritaDetailPage({ params }: { params: Promise<{ slug: s
               <div className="hero-img-wrap mb-8">
                 <img src={article.image} alt={article.title} />
                 <div className="hero-img-caption">
-                  Foto: Dokumentasi Resmi POLTEKIP — Upacara Pelantikan Taruna Angkatan XXXII
+                  Foto: Dokumentasi Resmi POLTEKIMIPAS — Upacara Pelantikan Taruna Angkatan XXXII
                 </div>
               </div>
 
