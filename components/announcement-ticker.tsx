@@ -1,12 +1,13 @@
 "use client"
 
 import { Bell } from "lucide-react"
+import Link from "next/link"
 
 const tickerItems = [
-  "Pendaftaran Seleksi Penerimaan Taruna Baru T.A. 2026/2027 telah dibuka!",
-  "Jadwal Ujian Akhir Semester Genap 2025/2026 telah tersedia.",
-  "Pengumuman Hasil Seleksi Beasiswa Unggulan POLTEKIP.",
-  "Peringatan Hari Pemasyarakatan ke-62 akan dilaksanakan 27 April 2026.",
+  { text: "Pendaftaran Seleksi Penerimaan Taruna Baru T.A. 2026/2027 telah dibuka!", id: 1 },
+  { text: "Jadwal Ujian Akhir Semester Genap 2025/2026 telah tersedia.", id: 2 },
+  { text: "Pengumuman Hasil Seleksi Beasiswa Unggulan POLTEKIP.", id: 3 },
+  { text: "Peringatan Hari Pemasyarakatan ke-62 akan dilaksanakan 27 April 2026.", id: 4 },
 ]
 
 export default function AnnouncementTicker() {
@@ -20,9 +21,13 @@ export default function AnnouncementTicker() {
         <div className="relative flex-1 overflow-hidden">
           <div className="animate-ticker flex whitespace-nowrap">
             {[...tickerItems, ...tickerItems].map((item, i) => (
-              <span key={i} className="mx-8 inline-block text-sm font-medium">
-                {item}
-              </span>
+              <Link
+                key={i}
+                href={`/pengumuman/${item.id}`}
+                className="mx-8 inline-block text-sm font-medium hover:underline transition-colors"
+              >
+                {item.text}
+              </Link>
             ))}
           </div>
         </div>

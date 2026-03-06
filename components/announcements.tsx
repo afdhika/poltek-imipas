@@ -1,6 +1,7 @@
 "use client"
 
 import { Bell, Calendar, ArrowRight, Megaphone } from "lucide-react"
+import Link from "next/link"
 
 const announcements = [
   {
@@ -112,13 +113,26 @@ export default function Announcements() {
                   </p>
                 </div>
 
-                <button className="flex shrink-0 items-center gap-1 self-start text-sm font-semibold text-navy transition-colors hover:text-gold">
+                <Link
+                  href={`/pengumuman/${item.id}`}
+                  className="flex shrink-0 items-center gap-1 self-start text-sm font-semibold text-navy transition-colors hover:text-gold"
+                >
                   Detail
                   <ArrowRight className="h-4 w-4 transition-transform group-hover:translate-x-1" />
-                </button>
+                </Link>
               </div>
             </div>
           ))}
+        </div>
+
+        <div className="scroll-reveal mt-10 text-center">
+          <Link 
+            href="/pengumuman"
+            className="inline-flex items-center gap-2 rounded-lg border-2 border-navy px-6 py-3 text-sm font-semibold text-navy transition-all hover:bg-navy hover:text-primary-foreground"
+          >
+            Lihat Semua Pengumuman
+            <Megaphone className="h-4 w-4" />
+          </Link>
         </div>
       </div>
     </section>
