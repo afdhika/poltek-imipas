@@ -46,7 +46,7 @@ const articles = [
   },
   {
     id: 5,
-    image: "/images/news-2.jpg",
+    image: "/images/gallery-2.jpg",
     category: "Prestasi",
     date: "15 Januari 2026",
     title: "POLTEKIP Raih Peringkat Terbaik dalam Lomba Debat Nasional",
@@ -56,7 +56,7 @@ const articles = [
   },
   {
     id: 6,
-    image: "/images/news-3.jpg",
+    image: "/images/gallery-3.jpg",
     category: "Kerjasama",
     date: "10 Januari 2026",
     title: "MoU dengan Kementerian Hukum dan HAM untuk Program Magang",
