@@ -104,10 +104,13 @@ export default function News() {
         </div>
 
         <div className="scroll-reveal mt-10 text-center">
-          <button className="inline-flex items-center gap-2 rounded-lg border-2 border-navy px-6 py-3 text-sm font-semibold text-navy transition-all hover:bg-navy hover:text-primary-foreground">
+          <Link 
+            href="/berita"
+            className="inline-flex items-center gap-2 rounded-lg border-2 border-navy px-6 py-3 text-sm font-semibold text-navy transition-all hover:bg-navy hover:text-primary-foreground"
+          >
             Lihat Semua Berita
             <ArrowRight className="h-4 w-4" />
-          </button>
+          </Link>
         </div>
       </div>
     </section>
