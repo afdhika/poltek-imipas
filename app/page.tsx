@@ -6,7 +6,7 @@ import { useScrollReveal } from "@/hooks/use-scroll-reveal"
 import SplashIntro from "@/components/splash-intro"
 import Navbar from "@/components/navbar"
 import AnnouncementTicker from "@/components/announcement-ticker"
-import Hero from "@/components/hero"
+import AnimatedBanner from "@/components/animated-banner"
 import About from "@/components/about"
 import Programs from "@/components/programs"
 import News from "@/components/news"
@@ -48,7 +48,7 @@ export default function Home() {
       >
         <Navbar onSearchOpen={() => setSearchOpen(true)} />
         <AnnouncementTicker />
-        <Hero />
+        <AnimatedBanner />
         <About />
         <Programs />
         <News />
