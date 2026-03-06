@@ -585,7 +585,7 @@ export default function BeritaDetailPage({ params }: { params: Promise<{ slug: s
                     return (
                       <blockquote key={i} className="article-quote">
                         <p>&ldquo;{block.text}&rdquo;</p>
-                        <cite>— {block.source || "Sumber tidak diketahui"}</cite>
+                        <cite>— {(block as any).source ?? "Sumber tidak diketahui"}</cite>
                       </blockquote>
                     )
                   return null
