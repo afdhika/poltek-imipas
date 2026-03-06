@@ -3,30 +3,20 @@
 import { Shield, Wrench, Users, ArrowRight } from "lucide-react"
 import Link from "next/link"
 
-const programs = [
+const jurusan = [
   {
     icon: Shield,
-    title: "D-IV Manajemen Pemasyarakatan",
+    title: "Jurusan Keimigrasian",
     description:
-      "Program studi yang mempersiapkan tenaga profesional dalam bidang manajemen lembaga pemasyarakatan, pengelolaan warga binaan, dan administrasi pemasyarakatan secara komprehensif.",
-    akreditasi: "Terakreditasi Baik Sekali",
-    durasi: "4 Tahun (8 Semester)",
-  },
-  {
-    icon: Wrench,
-    title: "D-IV Teknik Pemasyarakatan",
-    description:
-      "Program studi yang fokus pada penguasaan teknologi keamanan, sistem pengawasan modern, dan teknik pengelolaan fasilitas pemasyarakatan yang efektif dan efisien.",
-    akreditasi: "Terakreditasi Baik Sekali",
-    durasi: "4 Tahun (8 Semester)",
+      "Program studi yang mempersiapkan tenaga profesional di bidang keimigrasian dengan 3 program studi unggulan.",
+    programCount: "3 Program Studi",
   },
   {
     icon: Users,
-    title: "D-IV Bimbingan Kemasyarakatan",
+    title: "Jurusan Pemasyarakatan",
     description:
-      "Program studi yang menghasilkan tenaga ahli dalam bidang pembimbingan dan pendampingan klien pemasyarakatan, rehabilitasi sosial, dan reintegrasi masyarakat.",
-    akreditasi: "Terakreditasi Baik",
-    durasi: "4 Tahun (8 Semester)",
+      "Program studi yang menghasilkan tenaga ahli di bidang pemasyarakatan dengan 3 program studi terakreditasi.",
+    programCount: "3 Program Studi",
   },
 ]
 
@@ -43,49 +33,46 @@ export default function Programs() {
             className="text-3xl font-bold text-navy md:text-4xl"
             style={{ fontFamily: "var(--font-poppins)" }}
           >
-            Program Studi
+            Jurusan
           </h2>
           <div className="mx-auto mt-4 h-1 w-16 rounded-full bg-gold" />
           <p className="mx-auto mt-4 max-w-2xl text-muted-foreground">
-            POLTEKIMIPAS menyelenggarakan tiga program studi diploma empat (D-IV) yang
-            dirancang untuk menghasilkan tenaga profesional di bidang pemasyarakatan.
+            POLTEKIMIPAS menyelenggarakan dua jurusan unggulan yang
+            dirancang untuk menghasilkan tenaga profesional di bidang keimigrasian dan pemasyarakatan.
           </p>
         </div>
 
-        {/* Cards */}
-        <div className="scroll-reveal grid gap-6 md:grid-cols-3">
-          {programs.map((program, i) => (
+        {/* Jurusan Cards */}
+        <div className="scroll-reveal grid gap-8 md:grid-cols-2">
+          {jurusan.map((item, i) => (
             <div
               key={i}
-              className="group rounded-xl border border-border bg-card p-6 transition-all duration-300 hover:-translate-y-1 hover:border-gold/40 hover:shadow-xl"
+              className="group rounded-xl border border-border bg-card p-8 transition-all duration-300 hover:-translate-y-1 hover:border-gold/40 hover:shadow-xl"
             >
-              <div className="mb-4 flex h-14 w-14 items-center justify-center rounded-xl bg-navy text-primary-foreground transition-colors group-hover:bg-gold group-hover:text-navy-dark">
-                <program.icon className="h-7 w-7" />
+              <div className="mb-6 flex h-16 w-16 items-center justify-center rounded-xl bg-navy text-primary-foreground transition-colors group-hover:bg-gold group-hover:text-navy-dark">
+                <item.icon className="h-8 w-8" />
               </div>
 
               <h3
-                className="mb-3 text-lg font-bold text-foreground"
+                className="mb-4 text-2xl font-bold text-foreground"
                 style={{ fontFamily: "var(--font-poppins)" }}
               >
-                {program.title}
+                {item.title}
               </h3>
 
-              <p className="mb-4 text-sm leading-relaxed text-muted-foreground">
-                {program.description}
+              <p className="mb-6 text-base leading-relaxed text-muted-foreground">
+                {item.description}
               </p>
 
-              <div className="mb-4 flex flex-wrap gap-2">
-                <span className="rounded-full bg-navy/10 px-3 py-1 text-[11px] font-medium text-navy">
-                  {program.akreditasi}
-                </span>
-                <span className="rounded-full bg-gold/10 px-3 py-1 text-[11px] font-medium text-gold">
-                  {program.durasi}
+              <div className="mb-6">
+                <span className="inline-flex items-center gap-2 rounded-full bg-gold/10 px-4 py-2 text-sm font-medium text-gold">
+                  {item.programCount}
                 </span>
               </div>
 
-              <Link href="/program-studi" className="group/btn flex items-center gap-1.5 text-sm font-semibold text-navy transition-colors hover:text-gold">
-                Selengkapnya
-                <ArrowRight className="h-4 w-4 transition-transform group-hover/btn:translate-x-1" />
+              <Link href="/program-studi" className="group/btn inline-flex items-center gap-2 text-base font-semibold text-navy transition-colors hover:text-gold">
+                Baca Selengkapnya
+                <ArrowRight className="h-5 w-5 transition-transform group-hover/btn:translate-x-1" />
               </Link>
             </div>
           ))}

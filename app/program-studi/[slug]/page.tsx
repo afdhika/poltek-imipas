@@ -6,6 +6,249 @@ import Link from "next/link"
 import { useParams } from "next/navigation"
 
 const programDetails = {
+  "administrasi-keimigrasian": {
+    icon: FileText,
+    title: "Administrasi Keimigrasian",
+    subtitle: "Program Studi Unggulan dengan Akreditasi Baik",
+    description:
+      "Program studi Administrasi Keimigrasian dirancang untuk menghasilkan tenaga profesional yang kompeten dalam bidang administrasi keimigrasian, manajemen dokumen, dan layanan administratif di lingkungan imigrasi.",
+    akreditasi: "Terakreditasi Baik",
+    durasi: "4 Tahun (8 Semester)",
+    kuota: 120,
+    jenjang: "Diploma IV (Sarjana Terapan)",
+    gelar: "S.Tr.Im (Sarjana Terapan Imigrasi)",
+    
+    visi: "Menjadi program studi unggulan dalam pengembangan ilmu pengetahuan dan teknologi di bidang administrasi keimigrasian yang berintegritas, inovatif, dan berwawasan global pada tahun 2030.",
+    
+    misi: [
+      "Menyelenggarakan pendidikan vokasi yang berkualitas dalam bidang administrasi keimigrasian",
+      "Mengembangkan penelitian applied research yang berkontribusi pada kemajuan dunia keimigrasian",
+      "Melaksanakan pengabdian kepada masyarakat dalam rangka meningkatkan kualitas layanan keimigrasian",
+      "Membangun jaringan kerjasama dengan institusi keimigrasian dan industri terkait"
+    ],
+    
+    kompetensi: [
+      {
+        title: "Kompetensi Inti",
+        items: [
+          "Administrasi Keimigrasian",
+          "Manajemen Dokumen",
+          "Layanan Administratif",
+          "Prosedur Imigrasi"
+        ]
+      },
+      {
+        title: "Kompetensi Pendukung",
+        items: [
+          "Kepemimpinan dan Manajemen SDM",
+          "Analisis Sistem Keimigrasian",
+          "Evaluasi Program Keimigrasian",
+          "Manajemen Risiko dan Keamanan"
+        ]
+      }
+    ],
+    
+    kurikulum: [
+      "Pengantar Administrasi Keimigrasian",
+      "Hukum Keimigrasian",
+      "Prosedur Imigrasi",
+      "Manajemen Dokumen Perjalanan",
+      "Sistem Informasi Keimigrasian",
+      "Etika Profesi Keimigrasian",
+      "Praktik Kerja Lapangan"
+    ],
+    
+    prospek: [
+      "Staf Administrasi Keimigrasian",
+      "Analis Keimigrasian",
+      "Manajemen Layanan Keimigrasian",
+      "Staf Kantor Imigrasi",
+      "Konsultan Keimigrasian"
+    ],
+    
+    fasilitas: [
+      "Laboratorium Administrasi Keimigrasian",
+      "Ruang Simulasi Prosedur Imigrasi",
+      "Sistem Informasi Keimigrasian",
+      "Perpustakaan Khusus Keimigrasian",
+      "Ruang Praktik Administratif"
+    ],
+    
+    biaya: {
+      spp: "Rp 450.000/semester",
+      praktik: "Rp 600.000/semester",
+      alat: "Rp 1.800.000 (sekali)",
+      total: "Rp 5.100.000/tahun"
+    },
+    
+    kontak: {
+      email: "administrasi@poltekip.ac.id",
+      telepon: "(021) 1234-5676",
+      lokasi: "Gedung A, Lantai 1"
+    }
+  },
+  "hukum-keimigrasian": {
+    icon: Shield,
+    title: "Hukum Keimigrasian",
+    subtitle: "Program Studi Unggulan dengan Akreditasi Baik",
+    description:
+      "Program studi Hukum Keimigrasian dirancang untuk menghasilkan sarjana hukum yang kompeten dalam bidang hukum keimigrasian, hukum internasional, dan praktik penegakan hukum di bidang keimigrasian.",
+    akreditasi: "Terakreditasi Baik",
+    durasi: "4 Tahun (8 Semester)",
+    kuota: 115,
+    jenjang: "Diploma IV (Sarjana Terapan)",
+    gelar: "S.Tr.Hk (Sarjana Terapan Hukum)",
+    
+    visi: "Menjadi program studi unggulan dalam pengembangan ilmu hukum keimigrasian yang berintegritas, inovatif, dan berwawasan global pada tahun 2030.",
+    
+    misi: [
+      "Menyelenggarakan pendidikan hukum keimigrasian yang berkualitas",
+      "Mengembangkan penelitian hukum keimigrasian yang berkontribusi",
+      "Melaksanakan pengabdian kepada masyarakat dalam bidang hukum",
+      "Membangun jaringan kerjasama dengan institusi hukum dan keimigrasian"
+    ],
+    
+    kompetensi: [
+      {
+        title: "Kompetensi Inti",
+        items: [
+          "Hukum Imigrasi",
+          "Hukum Internasional",
+          "Legislasi Imigrasi",
+          "Praktik Penegakan Hukum"
+        ]
+      },
+      {
+        title: "Kompetensi Pendukung",
+        items: [
+          "Analisis Kebijakan Imigrasi",
+          "Prosedur Hukum Imigrasi",
+          "Hukum Administrasi Imigrasi",
+          "Etika Profesi Hukum"
+        ]
+      }
+    ],
+    
+    kurikulum: [
+      "Pengantar Hukum Keimigrasian",
+      "Hukum Internasional Imigrasi",
+      "Hukum Administrasi Imigrasi",
+      "Prosedur Imigrasi Indonesia",
+      "Hukum Keimigrasian Umum",
+      "Praktik Peradilan Semu",
+      "Etika Profesi Hukum"
+    ],
+    
+    prospek: [
+      "Praktik Hukum Keimigrasian",
+      "Analis Kebijakan Imigrasi",
+      "Staf Hukum di Kedutaan/Konsulat",
+      "Advokat Imigrasi",
+      "Jaksa"
+    ],
+    
+    fasilitas: [
+      "Laboratorium Hukum Keimigrasian",
+      "Ruang Peradilan Semu",
+      "Perpustakaan Hukum Internasional",
+      "Ruang Sidang",
+      "Database Legislasi Imigrasi"
+    ],
+    
+    biaya: {
+      spp: "Rp 500.000/semester",
+      praktik: "Rp 700.000/semester",
+      alat: "Rp 2.000.000 (sekali)",
+      total: "Rp 5.400.000/tahun"
+    },
+    
+    kontak: {
+      email: "hukum@poltekip.ac.id",
+      telepon: "(021) 1234-5677",
+      lokasi: "Gedung A, Lantai 2"
+    }
+  },
+  "manajemen-teknologi-keimigrasian": {
+    icon: Users2,
+    title: "Manajemen Teknologi Keimigrasian",
+    subtitle: "Program Studi Unggulan dengan Akreditasi Baik",
+    description:
+      "Program studi Manajemen Teknologi Keimigrasian dirancang untuk menghasilkan manajer yang mampu mengintegrasikan teknologi informasi dalam operasional keimigrasian modern.",
+    akreditasi: "Terakreditasi Baik",
+    durasi: "4 Tahun (8 Semester)",
+    kuota: 110,
+    jenjang: "Diploma IV (Sarjana Terapan)",
+    gelar: "S.Tr.TI (Sarjana Terapan Teknologi Informasi)",
+    
+    visi: "Menjadi program studi unggulan dalam pengembangan teknologi informasi keimigrasian yang berintegritas, inovatif, dan berwawasan global pada tahun 2030.",
+    
+    misi: [
+      "Menyelenggarakan pendidikan manajemen TI keimigrasian yang berkualitas",
+      "Mengembangkan penelitian TI keimigrasian yang berkontribusi",
+      "Melaksanakan pengabdian kepada masyarakat dalam bidang TI",
+      "Membangun jaringan kerjasama dengan institusi TI dan keimigrasian"
+    ],
+    
+    kompetensi: [
+      {
+        title: "Kompetensi Inti",
+        items: [
+          "Manajemen TI",
+          "Sistem Informasi Keimigrasian",
+          "Teknologi Operasional",
+          "Digital Imigrasi"
+        ]
+      },
+      {
+        title: "Kompetensi Pendukung",
+        items: [
+          "Basis Data Keimigrasian",
+          "Manajemen Proyek TI",
+          "Keamanan Siber Keimigrasian",
+          "Analisis Sistem"
+        ]
+      }
+    ],
+    
+    kurikulum: [
+      "Sistem Informasi Manajemen",
+      "Teknologi Operasional Keimigrasian",
+      "Basis Data Keimigrasian",
+      "Manajemen Proyek TI",
+      "Keamanan Siber Keimigrasian",
+      "Digital Imigrasi",
+      "Etika Profesi TI"
+    ],
+    
+    prospek: [
+      "Manajer Sistem Informasi Keimigrasian",
+      "Analis Kebijakan Imigrasi Digital",
+      "Manajemen Operasional Keimigrasian",
+      "Kepala Kantor Imigrasi",
+      "Konsultan Teknologi Keimigrasian"
+    ],
+    
+    fasilitas: [
+      "Laboratorium Sistem Informasi",
+      "Rangkaian Jaringan Keimigrasian",
+      "Cloud Computing Lab",
+      "Database Server",
+      "Ruang Praktik TI"
+    ],
+    
+    biaya: {
+      spp: "Rp 550.000/semester",
+      praktik: "Rp 800.000/semester",
+      alat: "Rp 2.500.000 (sekali)",
+      total: "Rp 6.300.000/tahun"
+    },
+    
+    kontak: {
+      email: "ti@poltekip.ac.id",
+      telepon: "(021) 1234-5675",
+      lokasi: "Gedung A, Lantai 3"
+    }
+  },
   "manajemen-pemasyarakatan": {
     icon: Shield,
     title: "D-IV Manajemen Pemasyarakatan",
@@ -165,87 +408,6 @@ const programDetails = {
       email: "teknik@poltekip.ac.id",
       telepon: "(021) 1234-5679",
       lokasi: "Gedung B, Lantai 2"
-    }
-  },
-  
-  "bimbingan-kemasyarakatan": {
-    icon: Users,
-    title: "D-IV Bimbingan Kemasyarakatan",
-    subtitle: "Program Studi Humanis dengan Fokus Rehabilitasi Sosial",
-    description:
-      "Program studi D-IV Bimbingan Kemasyarakatan menghasilkan tenaga ahli dalam bidang pembimbingan dan pendampingan klien pemasyarakatan, rehabilitasi sosial, dan reintegrasi masyarakat.",
-    akreditasi: "Terakreditasi Baik",
-    durasi: "4 Tahun (8 Semester)",
-    kuota: 115,
-    jenjang: "Diploma IV (Sarjana Terapan)",
-    gelar: "S.Tr.BK (Sarjana Terapan Bimbingan Konseling)",
-    
-    visi: "Menjadi program studi unggul dalam pengembangan ilmu dan praktik bimbingan kemasyarakatan yang humanis, profesional, dan berbasis bukti untuk mendukung rehabilitasi sosial.",
-    
-    misi: [
-      "Menyelenggarakan pendidikan vokasi bimbingan kemasyarakatan yang berkualitas",
-      "Mengembangkan model bimbingan dan konseling pemasyarakatan yang inovatif",
-      "Melaksanakan penelitian di bidang rehabilitasi sosial dan reintegrasi",
-      "Membangun jaringan dengan lembaga rehabilitasi dan komunitas"
-    ],
-    
-    kompetensi: [
-      {
-        title: "Kompetensi Inti",
-        items: [
-          "Bimbingan dan Konseling Pemasyarakatan",
-          "Rehabilitasi Sosial",
-          "Reintegrasi Masyarakat",
-          "Psikologi Pemasyarakatan"
-        ]
-      },
-      {
-        title: "Kompetensi Pendukung",
-        items: [
-          "Teknik Konseling Individual",
-          "Terapi Kelompok",
-          "Assessment Psikososial",
-          "Manajemen Kasus"
-        ]
-      }
-    ],
-    
-    kurikulum: [
-      "Semester 1-2: Mata Kuliah Dasar (Psikologi, Sosiologi, Pengantar BK, Sistem Pemasyarakatan)",
-      "Semester 3-4: Mata Kuliah Inti (Konseling, Rehabilitasi, Psikologi Sosial)",
-      "Semester 5-6: Mata Kuliah Lanjutan (Terapi, Assessment, Manajemen Kasus)",
-      "Semester 7-8: Magang dan Tugas Akhir"
-    ],
-    
-    fasilitas: [
-      "Laboratorium Konseling",
-      "Ruang Terapi Individual dan Kelompok",
-      "Alat Tes Psikologi",
-      "Perpustakaan Khusus BK",
-      "Ruang Observasi",
-      "Studio Role-Playing"
-    ],
-    
-    prospek: [
-      "Pembimbing Kemasyarakatan",
-      "Konselor Pemasyarakatan",
-      "Terapis Rehabilitasi",
-      "Analis Kasus Sosial",
-      "Konselor Lembaga",
-      "Praktisi Swasta Konseling"
-    ],
-    
-    biaya: {
-      spp: "Rp 550.000/semester",
-      praktik: "Rp 800.000/semester",
-      alat: "Rp 2.500.000 (sekali)",
-      total: "Rp 5.700.000/tahun"
-    },
-    
-    kontak: {
-      email: "bimbingan@poltekip.ac.id",
-      telepon: "(021) 1234-5680",
-      lokasi: "Gedung C, Lantai 1"
     }
   }
 }

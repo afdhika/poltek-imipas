@@ -1,10 +1,58 @@
 "use client"
 
 import { useState, useEffect } from "react"
-import { Shield, Wrench, Users, ArrowLeft, ArrowRight, BookOpen, Award, Clock, Users2 } from "lucide-react"
+import { Shield, Wrench, Users, ArrowLeft, ArrowRight, BookOpen, Award, Clock, Users2, FileText } from "lucide-react"
 import Link from "next/link"
 
 const programs = [
+  {
+    icon: FileText,
+    title: "Administrasi Keimigrasian",
+    description:
+      "Program studi yang mempersiapkan tenaga profesional dalam bidang administrasi keimigrasian, manajemen dokumen, dan layanan administratif di lingkungan imigrasi.",
+    akreditasi: "Terakreditasi Baik",
+    durasi: "4 Tahun (8 Semester)",
+    kuota: 120,
+    slug: "administrasi-keimigrasian",
+    highlight: [
+      "Administrasi Keimigrasian",
+      "Manajemen Dokumen",
+      "Layanan Administratif",
+      "Prosedur Imigrasi"
+    ]
+  },
+  {
+    icon: Shield,
+    title: "Hukum Keimigrasian",
+    description:
+      "Program studi yang fokus pada hukum keimigrasian, hukum internasional, dan legislasi imigrasi serta praktik penegakan hukum di bidang keimigrasian.",
+    akreditasi: "Terakreditasi Baik",
+    durasi: "4 Tahun (8 Semester)",
+    kuota: 115,
+    slug: "hukum-keimigrasian",
+    highlight: [
+      "Hukum Imigrasi",
+      "Hukum Internasional",
+      "Legislasi Imigrasi",
+      "Praktik Penegakan Hukum"
+    ]
+  },
+  {
+    icon: Users2,
+    title: "Manajemen Teknologi Keimigrasian",
+    description:
+      "Program studi yang menggabungkan manajemen dengan teknologi informasi untuk mendukung operasional keimigrasian modern yang efektif dan efisien.",
+    akreditasi: "Terakreditasi Baik",
+    durasi: "4 Tahun (8 Semester)",
+    kuota: 110,
+    slug: "manajemen-teknologi-keimigrasian",
+    highlight: [
+      "Manajemen TI",
+      "Sistem Informasi Keimigrasian",
+      "Teknologi Operasional",
+      "Digital Imigrasi"
+    ]
+  },
   {
     icon: Shield,
     title: "D-IV Manajemen Pemasyarakatan",
@@ -39,13 +87,13 @@ const programs = [
   },
   {
     icon: Users,
-    title: "D-IV Bimbingan Kemasyarakatan",
+    title: "D-IV Bimbingan Pemasyarakatan",
     description:
       "Program studi yang menghasilkan tenaga ahli dalam bidang pembimbingan dan pendampingan klien pemasyarakatan, rehabilitasi sosial, dan reintegrasi masyarakat.",
     akreditasi: "Terakreditasi Baik",
     durasi: "4 Tahun (8 Semester)",
     kuota: 115,
-    slug: "bimbingan-kemasyarakatan",
+    slug: "bimbingan-pemasyarakatan",
     highlight: [
       "Bimbingan dan Konseling",
       "Rehabilitasi Sosial",
