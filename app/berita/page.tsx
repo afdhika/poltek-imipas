@@ -7,7 +7,7 @@ import Link from "next/link"
 const articles = [
   {
     id: 1,
-    image: "/images/news-1.jpg",
+    image: "/images/gallery-1.jpg",
     category: "Kegiatan Taruna",
     date: "28 Februari 2026",
     readTime: "4 menit",
@@ -49,7 +49,7 @@ const articles = [
   },
   {
     id: 4,
-    image: "/images/news-1.jpg",
+    image: "/images/gallery-1.jpg",
     category: "Kegiatan Taruna",
     date: "20 Januari 2026",
     readTime: "6 menit",
@@ -63,7 +63,7 @@ const articles = [
   },
   {
     id: 5,
-    image: "/images/news-2.jpg",
+    image: "/images/gallery-2.jpg",
     category: "Prestasi",
     date: "15 Januari 2026",
     readTime: "4 menit",
@@ -77,7 +77,7 @@ const articles = [
   },
   {
     id: 6,
-    image: "/images/news-3.jpg",
+    image: "/images/gallery-3.jpg",
     category: "Kerjasama",
     date: "10 Januari 2026",
     readTime: "3 menit",

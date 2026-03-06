@@ -34,6 +34,36 @@ const articles = [
       "Direktur Jenderal Pemasyarakatan melakukan kunjungan kerja untuk meninjau fasilitas pendidikan dan sarana prasarana kampus.",
     slug: "kunjungan-kerja-dirjen-pemasyarakatan-ke-kampus-poltekip",
   },
+  {
+    id: 4,
+    image: "/images/news-1.jpg",
+    category: "Kegiatan Taruna",
+    date: "20 Januari 2026",
+    title: "Latihan Baris Berbaris Taruna Angkatan XXXII POLTEKIP",
+    excerpt:
+      "Taruna dan taruni Angkatan XXXII mengikuti latihan baris berbaris sebagai bagian dari pembinaan karakter dan disiplin.",
+    slug: "latihan-baris-berbaris-angkatan-xxxii-poltekip",
+  },
+  {
+    id: 5,
+    image: "/images/news-2.jpg",
+    category: "Prestasi",
+    date: "15 Januari 2026",
+    title: "POLTEKIP Raih Peringkat Terbaik dalam Lomba Debat Nasional",
+    excerpt:
+      "Tim debat POLTEKIP berhasil meraih juara pertama dalam Lomba Debat Nasional Perguruan Tinggi Vokasi se-Indonesia.",
+    slug: "poltekip-raih-peringkat-terbaik-lomba-debat-nasional",
+  },
+  {
+    id: 6,
+    image: "/images/news-3.jpg",
+    category: "Kerjasama",
+    date: "10 Januari 2026",
+    title: "MoU dengan Kementerian Hukum dan HAM untuk Program Magang",
+    excerpt:
+      "POLTEKIP menjalin kerjasama dengan Kementerian Hukum dan HAM untuk program magang bagi taruna semester akhir.",
+    slug: "mou-kemenkumham-program-magang",
+  },
 ]
 
 export default function News() {

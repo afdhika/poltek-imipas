@@ -28,7 +28,7 @@ const articles = {
     title: "Upacara Pelantikan Taruna Baru Angkatan XXXII POLTEKIP",
     subtitle:
       "Sebanyak 350 taruna dan taruni baru resmi dilantik dalam upacara yang dihadiri langsung oleh Menteri Imigrasi dan Pemasyarakatan RI.",
-    image: "/images/news-1.jpg",
+    image: "/images/gallery-1.jpg",
     author: {
       name: "Biro Humas POLTEKIP",
       role: "Tim Redaksi",
@@ -147,6 +147,140 @@ const articles = {
       },
     ],
   },
+  "latihan-baris-berbaris-angkatan-xxxii-poltekip": {
+    id: 4,
+    slug: "latihan-baris-berbaris-angkatan-xxxii-poltekip",
+    category: "Kegiatan Taruna",
+    date: "20 Januari 2026",
+    readTime: "6 menit",
+    views: 2341,
+    title: "Latihan Baris Berbaris Taruna Angkatan XXXII POLTEKIP",
+    subtitle:
+      "Taruna dan taruni Angkatan XXXII mengikuti latihan baris berbaris sebagai bagian dari pembinaan karakter dan disiplin.",
+    image: "/images/gallery-1.jpg",
+    author: {
+      name: "Tim Liputan POLTEKIP",
+      role: "Tim Dokumentasi",
+      initial: "TL",
+    },
+    tags: ["Latihan", "Baris Berbaris", "Taruna", "Disiplin"],
+    content: [
+      {
+        type: "paragraph",
+        text: "Sebanyak 350 taruna dan taruni Angkatan XXXII POLTEKIP mengikuti latihan baris berbaris (PBB) rutin yang diselenggarakan di Lapangan Apel Kampus POLTEKIP, Gandul, Depok. Kegiatan ini merupakan bagian integral dari pembinaan karakter dan disiplin bagi calon pemasyarakatan profesional.",
+      },
+      {
+        type: "paragraph",
+        text: "Latihan yang dipimpin langsung oleh Instruktur PBB profesional ini berlangsung selama tiga hari, mulai pukul 06.00 hingga 09.00 WIB. Para taruna dan taruni menunjukkan semangat dan dedikasi yang tinggi dalam mengikuti setiap gerakan dengan tekun dan penuh keseriusan.",
+      },
+      {
+        type: "heading",
+        text: "Tujuan Pembinaan",
+      },
+      {
+        type: "paragraph",
+        text: "Kegiatan PBB tidak hanya bertujuan untuk membentuk fisik yang tangguh, tetapi juga untuk membangun karakter disiplin, kepemimpinan, dan kerjasama tim yang solid. Ini adalah bekal penting bagi mereka yang akan menjadi penegak hukum di lembaga pemasyarakatan.",
+      },
+      {
+        type: "quote",
+        text: "Disiplin adalah fondasi utama seorang pemasyarakatan. Tanpa disiplin, tidak akan ada integritas dan profesionalisme dalam menjalankan tugas.",
+        source: "Komandan Latihan POLTEKIP",
+      },
+      {
+        type: "paragraph",
+        text: "Selain latihan PBB, para taruna juga mendapatkan materi tentang etika profesi, kepemimpinan, dan manajemen stress yang akan mereka hadapi di dunia kerja nanti. Pembinaan ini dirancang secara komprehensif untuk menciptakan lulusan yang siap menghadapi tantangan di lapangan.",
+      },
+    ],
+  },
+  "poltekip-raih-peringkat-terbaik-lomba-debat-nasional": {
+    id: 5,
+    slug: "poltekip-raih-peringkat-terbaik-lomba-debat-nasional",
+    category: "Prestasi",
+    date: "15 Januari 2026",
+    readTime: "4 menit",
+    views: 1876,
+    title: "POLTEKIP Raih Peringkat Terbaik dalam Lomba Debat Nasional",
+    subtitle:
+      "Tim debat POLTEKIP berhasil meraih juara pertama dalam Lomba Debat Nasional Perguruan Tinggi Vokasi se-Indonesia.",
+    image: "/images/gallery-2.jpg",
+    author: {
+      name: "Biro Humas POLTEKIP",
+      role: "Tim Prestasi",
+      initial: "BH",
+    },
+    tags: ["Prestasi", "Debat", "Juara", "Nasional"],
+    content: [
+      {
+        type: "paragraph",
+        text: "Tim debat Politeknik Ilmu Pemasyarakatan (POLTEKIP) berhasil meraih juara pertama dalam Lomba Debat Nasional Perguruan Tinggi Vokasi se-Indonesia yang diselenggarakan di Jakarta pada 15 Januari 2026. Ini merupakan prestasi membanggakan bagi POLTEKIP dan dunia pendidikan vokasi pemasyarakatan.",
+      },
+      {
+        type: "paragraph",
+        text: "Tim yang terdiri dari tiga orang taruna terbaik ini berhasil mengalahkan 48 tim dari berbagai perguruan tinggi vokasi di seluruh Indonesia. Mereka menampilkan argumen yang tajam, logis, dan didasari pada data akurat tentang isu-isu pemasyarakatan kontemporer.",
+      },
+      {
+        type: "heading",
+        text: "Perjalanan Kompetisi",
+      },
+      {
+        type: "paragraph",
+        text: "Kompetisi berlangsung selama tiga hari dengan sistem eliminasi. Tim POLTEKIP berhasil melaju ke babak final setelah mengalahkan tim dari berbagai perguruan tinggi ternama. Di babak final, mereka berhasil membawakan mosi tentang 'Reformasi Pemasyarakatan di Era Digital' dengan sangat baik.",
+      },
+      {
+        type: "quote",
+        text: "Kemenangan ini bukti bahwa taruna POLTEKIP tidak hanya unggul dalam aspek teknis, tetapi juga memiliki kemampuan analitis dan komunikasi yang excellent.",
+        source: "Direktur POLTEKIP",
+      },
+      {
+        text: "Prestasi ini membawa nama baik POLTEKIP di tingkat nasional dan membuktikan kualitas pendidikan vokasi pemasyarakatan yang diselenggarakan. Tim debat POLTEKIP akan mewakili Indonesia dalam kompetisi debat tingkat Asia Tenggara tahun depan.",
+      },
+    ],
+  },
+  "mou-kemenkumham-program-magang": {
+    id: 6,
+    slug: "mou-kemenkumham-program-magang",
+    category: "Kerjasama",
+    date: "10 Januari 2026",
+    readTime: "3 menit",
+    views: 1234,
+    title: "MoU dengan Kementerian Hukum dan HAM untuk Program Magang",
+    subtitle:
+      "POLTEKIP menjalin kerjasama dengan Kementerian Hukum dan HAM untuk program magang bagi taruna semester akhir.",
+    image: "/images/gallery-3.jpg",
+    author: {
+      name: "Biro Kerjasama POLTEKIP",
+      role: "Tim Hubungan Institusi",
+      initial: "BK",
+    },
+    tags: ["MoU", "Kerjasama", "Magang", "Kemenkumham"],
+    content: [
+      {
+        type: "paragraph",
+        text: "Politeknik Ilmu Pemasyarakatan (POLTEKIP) secara resmi menandatangani Memorandum of Understanding (MoU) dengan Kementerian Hukum dan HAM Republik Indonesia untuk program magang bagi taruna semester akhir. Penandatanganan dilaksanakan di Kampus POLTEKIP pada 10 Januari 2026.",
+      },
+      {
+        type: "paragraph",
+        text: "Kerjasama ini akan memberikan kesempatan bagi 350 taruna semester akhir untuk melakukan magang langsung di berbagai unit kerja Kementerian Hukum dan HAM, termasuk Kantor Wilayah Kementerian Hukum dan HAM serta Unit Pelaksana Teknis Pemasyarakatan di seluruh Indonesia.",
+      },
+      {
+        type: "heading",
+        text: "Tujuan Kerjasama",
+      },
+      {
+        type: "paragraph",
+        text: "Program magang ini dirancang untuk memberikan pengalaman praktis yang mendalam bagi taruna sebelum mereka memasuki dunia kerja. Mereka akan terlibat langsung dalam kegiatan operasional pemasyarakatan, administrasi, dan program pembinaan warga binaan.",
+      },
+      {
+        type: "quote",
+        text: "Magang adalah jembatan antara teori yang dipelajari di kampus dengan praktik di lapangan. Ini penting untuk menciptakan lulusan yang siap kerja dan kompeten.",
+        source: "Direktur Jenderal Pemasyarakatan",
+      },
+      {
+        type: "paragraph",
+        text: "Melalui kerjasama ini, diharapkan dapat meningkatkan kualitas lulusan POLTEKIP dan memperkuat link and match antara pendidikan vokasi dengan kebutuhan industri. Program magang akan dimulai pada semester ganjil tahun ajaran 2026/2027.",
+      },
+    ],
+  },
 }
 
 // ─── Related articles ─────────────────────────────────────────────────────────
@@ -169,7 +303,7 @@ const related = [
   },
   {
     id: 4,
-    image: "/images/news-1.jpg",
+    image: "/images/gallery-1.jpg",
     category: "Kegiatan Taruna",
     date: "20 Januari 2026",
     title: "Latihan Baris Berbaris Taruna Angkatan XXXII POLTEKIP",
@@ -675,7 +809,7 @@ export default function BeritaDetailPage({ params }: { params: Promise<{ slug: s
                     ))}
                   </div>
                   <a
-                    href="/#berita"
+                    href="/berita"
                     className="mt-4 flex items-center justify-center gap-1.5 rounded-lg py-2.5 text-sm font-semibold transition-colors"
                     style={{ color: "#1B3A6B", background: "rgba(27,58,107,0.06)", fontSize: "13px" }}
                   >
