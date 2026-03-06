@@ -2,25 +2,26 @@
 
 import { useState, useEffect, useRef } from "react"
 import { Menu, X, Search, Globe, ChevronDown } from "lucide-react"
+import Link from "next/link"
 
 const navItems = [
-  { label: "Beranda", href: "#beranda" },
-  { label: "Tentang", href: "#tentang" },
+  { label: "Beranda", href: "/" },
+  { label: "Tentang", href: "/#tentang" },
   {
     label: "Program Studi",
-    href: "#program-studi",
+    href: "/program-studi",
     children: [
-      { label: "D-IV Manajemen Pemasyarakatan", href: "#prodi-diii" },
-      { label: "D-IV Teknik Pemasyarakatan", href: "#prodi-div" },
-      { label: "D-IV Bimbingan Pemasyarakatan", href: "#prodi-s1" },
+      { label: "D-IV Manajemen Pemasyarakatan", href: "/program-studi/manajemen-pemasyarakatan" },
+      { label: "D-IV Teknik Pemasyarakatan", href: "/program-studi/teknik-pemasyarakatan" },
+      { label: "D-IV Bimbingan Pemasyarakatan", href: "/program-studi/bimbingan-pemasyarakatan" },
     ],
   },
-  { label: "Berita", href: "#berita" },
-  { label: "Blog", href: "#blog" },
-  { label: "Jurnal", href: "#jurnal" },
-  { label: "Perpustakaan", href: "#perpustakaan" },
-  { label: "Galeri", href: "#galeri" },
-  { label: "Pengumuman", href: "#pengumuman" },
+  { label: "Berita", href: "/berita" },
+  { label: "Blog", href: "/blog" },
+  { label: "Jurnal", href: "/jurnal" },
+  { label: "Perpustakaan", href: "/perpustakaan" },
+  { label: "Galeri", href: "/#galeri" },
+  { label: "Pengumuman", href: "/pengumuman" },
 ]
 
 interface NavbarProps {
@@ -425,13 +426,13 @@ export default function Navbar({ onSearchOpen }: NavbarProps) {
         <div className={`nav-body ${scrolled ? "scrolled" : ""}`} style={{ transition: "all 0.35s cubic-bezier(0.4, 0, 0.2, 1)" }}>
           <div className="nav-inner" ref={dropdownRef}>
             {/* Logo */}
-            <a href="#beranda" className="logo-wrap">
+            <Link href="/" className="logo-wrap">
               <div className="logo-badge">P</div>
               <div className="hidden sm:block">
                 <div className="logo-text-main">POLTEKIMIPAS</div>
                 <div className="logo-text-sub">Politeknik Ilmu Pemasyarakatan</div>
               </div>
-            </a>
+            </Link>
 
             {/* Desktop links */}
             <div className="desktop-links">
@@ -449,22 +450,22 @@ export default function Navbar({ onSearchOpen }: NavbarProps) {
                       {activeDropdown === item.label && (
                         <div className="dropdown-menu">
                           {item.children.map((child) => (
-                            <a key={child.href} href={child.href} className="dropdown-item" onClick={() => setActiveDropdown(null)}>
+                            <Link key={child.href} href={child.href} className="dropdown-item" onClick={() => setActiveDropdown(null)}>
                               {child.label}
-                            </a>
+                            </Link>
                           ))}
                         </div>
                       )}
                     </>
                   ) : (
-                    <a
+                    <Link
                       href={item.href}
                       className={`nav-link-btn ${activeLink === item.label ? "active" : ""}`}
                       onClick={() => setActiveLink(item.label)}
                     >
                       {item.label}
                       {activeLink === item.label && <span className="active-dot" />}
-                    </a>
+                    </Link>
                   )}
                 </div>
               ))}
@@ -497,20 +498,20 @@ export default function Navbar({ onSearchOpen }: NavbarProps) {
               {navItems.map((item, i) => (
                 <div key={item.href}>
                   {i === 3 && <div className="mobile-divider" />}
-                  <a
+                  <Link
                     href={item.href}
                     className={`mobile-link ${activeLink === item.label ? "active" : ""}`}
                     onClick={() => { setMobileOpen(false); setActiveLink(item.label) }}
                   >
                     {item.label}
                     {item.children && <ChevronDown style={{ width: 14, height: 14 }} />}
-                  </a>
+                  </Link>
                   {item.children && (
                     <div className="mobile-sub">
                       {item.children.map((child) => (
-                        <a key={child.href} href={child.href} className="mobile-sub-link" onClick={() => setMobileOpen(false)}>
+                        <Link key={child.href} href={child.href} className="mobile-sub-link" onClick={() => setMobileOpen(false)}>
                           {child.label}
-                        </a>
+                        </Link>
                       ))}
                     </div>
                   )}
