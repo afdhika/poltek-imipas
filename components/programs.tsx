@@ -1,6 +1,7 @@
 "use client"
 
 import { Shield, Wrench, Users, ArrowRight } from "lucide-react"
+import Link from "next/link"
 
 const programs = [
   {
@@ -82,10 +83,10 @@ export default function Programs() {
                 </span>
               </div>
 
-              <button className="group/btn flex items-center gap-1.5 text-sm font-semibold text-navy transition-colors hover:text-gold">
+              <Link href="/program-studi" className="group/btn flex items-center gap-1.5 text-sm font-semibold text-navy transition-colors hover:text-gold">
                 Selengkapnya
                 <ArrowRight className="h-4 w-4 transition-transform group-hover/btn:translate-x-1" />
-              </button>
+              </Link>
             </div>
           ))}
         </div>
