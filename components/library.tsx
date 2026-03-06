@@ -2,6 +2,7 @@
 
 import { useState } from "react"
 import { Search, Download, BookOpen, BookMarked } from "lucide-react"
+import Link from "next/link"
 
 const categories = [
   "Semua",
@@ -14,6 +15,7 @@ const categories = [
 const books = [
   {
     id: 1,
+    slug: "hukum-pemasyarakatan-indonesia-teori-dan-praktik",
     title: "Hukum Pemasyarakatan Indonesia: Teori dan Praktik",
     author: "Prof. Dr. Suhartoyo, S.H., M.H.",
     category: "Hukum Pemasyarakatan",
@@ -21,6 +23,7 @@ const books = [
   },
   {
     id: 2,
+    slug: "manajemen-lembaga-pemasyarakatan-modern",
     title: "Manajemen Lembaga Pemasyarakatan Modern",
     author: "Dr. Haryono, M.Si.",
     category: "Manajemen",
@@ -28,6 +31,7 @@ const books = [
   },
   {
     id: 3,
+    slug: "teknologi-keamanan-lembaga-pemasyarakatan",
     title: "Teknologi Keamanan untuk Lembaga Pemasyarakatan",
     author: "Ahmad Fauzi, M.T.",
     category: "Teknologi",
@@ -35,6 +39,7 @@ const books = [
   },
   {
     id: 4,
+    slug: "modul-pelatihan-bimbingan-kemasyarakatan",
     title: "Modul Pelatihan Bimbingan Kemasyarakatan",
     author: "Tim Dosen Bimbingan Kemasyarakatan",
     category: "Modul Pelatihan",
@@ -42,6 +47,7 @@ const books = [
   },
   {
     id: 5,
+    slug: "sistem-pemasyarakatan-perspektif-ham",
     title: "Sistem Pemasyarakatan: Perspektif HAM",
     author: "Dra. Siti Rahayu, M.Hum.",
     category: "Hukum Pemasyarakatan",
@@ -49,6 +55,7 @@ const books = [
   },
   {
     id: 6,
+    slug: "panduan-teknis-pengawasan-lembaga-pemasyarakatan",
     title: "Panduan Teknis Pengawasan Lembaga Pemasyarakatan",
     author: "Tim Dosen Teknik Pemasyarakatan",
     category: "Modul Pelatihan",
@@ -56,6 +63,7 @@ const books = [
   },
   {
     id: 7,
+    slug: "manajemen-sdm-lingkungan-pemasyarakatan",
     title: "Manajemen SDM di Lingkungan Pemasyarakatan",
     author: "Bambang Supriyadi, S.H., M.H.",
     category: "Manajemen",
@@ -63,6 +71,7 @@ const books = [
   },
   {
     id: 8,
+    slug: "smart-surveillance-penerapan-ai-pengawasan",
     title: "Smart Surveillance: Penerapan AI dalam Pengawasan",
     author: "Ahmad Fauzi, M.T., Eko Prasetyo, S.T.",
     category: "Teknologi",
@@ -150,13 +159,16 @@ export default function Library() {
                 <p className="mb-3 text-xs text-muted-foreground">{book.author}</p>
 
                 <div className="flex gap-2">
+                  <Link
+                    href={`/perpustakaan/${book.slug}`}
+                    className="flex flex-1 items-center justify-center gap-1.5 rounded-lg border border-navy px-3 py-2 text-xs font-semibold text-navy transition-all hover:bg-navy hover:text-primary-foreground"
+                  >
+                    <BookOpen className="h-3 w-3" />
+                    Detail
+                  </Link>
                   <button className="flex flex-1 items-center justify-center gap-1.5 rounded-lg bg-navy px-3 py-2 text-xs font-semibold text-primary-foreground transition-colors hover:bg-navy-light">
                     <Download className="h-3 w-3" />
                     Unduh
-                  </button>
-                  <button className="flex flex-1 items-center justify-center gap-1.5 rounded-lg border border-navy px-3 py-2 text-xs font-semibold text-navy transition-all hover:bg-navy hover:text-primary-foreground">
-                    <BookOpen className="h-3 w-3" />
-                    Baca Online
                   </button>
                 </div>
               </div>
@@ -169,6 +181,16 @@ export default function Library() {
             Tidak ada buku yang sesuai dengan pencarian Anda.
           </div>
         )}
+
+        <div className="scroll-reveal mt-10 text-center">
+          <Link 
+            href="/perpustakaan"
+            className="inline-flex items-center gap-2 rounded-lg border-2 border-navy px-6 py-3 text-sm font-semibold text-navy transition-all hover:bg-navy hover:text-primary-foreground"
+          >
+            Lihat Semua Buku
+            <BookOpen className="h-4 w-4" />
+          </Link>
+        </div>
       </div>
     </section>
   )
