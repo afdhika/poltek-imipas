@@ -1,9 +1,9 @@
 "use client"
 
 import { useEffect, useState, useRef } from "react"
-import { ChevronDown } from "lucide-react"
+import { ChevronDown, Users, Award, Clock } from "lucide-react"
 
-function CountUp({ target, suffix = "" }: { target: number; suffix?: string }) {
+function CountUp({ target, suffix = "", icon }: { target: number; suffix?: string; icon?: React.ReactNode }) {
   const [count, setCount] = useState(0)
   const ref = useRef<HTMLDivElement>(null)
   const hasAnimated = useRef(false)
@@ -16,20 +16,24 @@ function CountUp({ target, suffix = "" }: { target: number; suffix?: string }) {
       ([entry]) => {
         if (entry.isIntersecting && !hasAnimated.current) {
           hasAnimated.current = true
-          const duration = 2000
-          const startTime = performance.now()
+          
+          // Wait for splash screen to complete and user to see hero
+          setTimeout(() => {
+            const duration = 3000 // 3 detik untuk animasi yang lebih cepat dan bagus
+            const startTime = performance.now()
 
-          const animate = (currentTime: number) => {
-            const elapsed = currentTime - startTime
-            const progress = Math.min(elapsed / duration, 1)
-            const eased = 1 - Math.pow(1 - progress, 3)
-            setCount(Math.floor(eased * target))
-            if (progress < 1) requestAnimationFrame(animate)
-          }
-          requestAnimationFrame(animate)
+            const animate = (currentTime: number) => {
+              const elapsed = currentTime - startTime
+              const progress = Math.min(elapsed / duration, 1)
+              const eased = 1 - Math.pow(1 - progress, 3)
+              setCount(Math.floor(eased * target))
+              if (progress < 1) requestAnimationFrame(animate)
+            }
+            requestAnimationFrame(animate)
+          }, 4000) // 4 detik delay untuk splash + user melihat hero
         }
       },
-      { threshold: 0.5 }
+      { threshold: 0.3 }
     )
 
     observer.observe(el)
@@ -37,9 +41,18 @@ function CountUp({ target, suffix = "" }: { target: number; suffix?: string }) {
   }, [target])
 
   return (
-    <div ref={ref} className="text-3xl font-bold text-gold md:text-4xl" style={{ fontFamily: "var(--font-poppins)" }}>
-      {count.toLocaleString()}
-      {suffix}
+    <div ref={ref} className="text-center">
+      {icon && (
+        <div className="mb-3 flex justify-center">
+          <div className="w-12 h-12 bg-gold/20 rounded-full flex items-center justify-center text-gold">
+            {icon}
+          </div>
+        </div>
+      )}
+      <div className="text-3xl font-bold text-gold md:text-4xl" style={{ fontFamily: "var(--font-poppins)" }}>
+        {count.toLocaleString()}
+        {suffix}
+      </div>
     </div>
   )
 }
@@ -121,19 +134,33 @@ export default function Hero() {
           }`}
         >
           <div className="text-center">
-            <CountUp target={2500} suffix="+" />
+            <CountUp 
+              target={2500} 
+              suffix="+" 
+              icon={<Users className="h-6 w-6" />}
+            />
             <div className="mt-1 text-xs text-primary-foreground/50 uppercase tracking-wider">
               Total Taruna
             </div>
           </div>
+          
           <div className="text-center">
-            <CountUp target={15000} suffix="+" />
+            <CountUp 
+              target={15000} 
+              suffix="+" 
+              icon={<Award className="h-6 w-6" />}
+            />
             <div className="mt-1 text-xs text-primary-foreground/50 uppercase tracking-wider">
               Alumni
             </div>
           </div>
+          
           <div className="text-center">
-            <CountUp target={60} suffix="+" />
+            <CountUp 
+              target={60} 
+              suffix="+" 
+              icon={<Clock className="h-6 w-6" />}
+            />
             <div className="mt-1 text-xs text-primary-foreground/50 uppercase tracking-wider">
               Tahun Pengabdian
             </div>
