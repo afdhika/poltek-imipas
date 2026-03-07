@@ -82,7 +82,7 @@ const programDetails = {
     },
     
     kontak: {
-      email: "administrasi@poltekip.ac.id",
+      email: "administrasi@poltekimipas.ac.id",
       telepon: "(021) 1234-5676",
       lokasi: "Gedung A, Lantai 1"
     }
@@ -163,7 +163,7 @@ const programDetails = {
     },
     
     kontak: {
-      email: "hukum@poltekip.ac.id",
+      email: "hukum@poltekimipas.ac.id",
       telepon: "(021) 1234-5677",
       lokasi: "Gedung A, Lantai 2"
     }
@@ -244,7 +244,7 @@ const programDetails = {
     },
     
     kontak: {
-      email: "ti@poltekip.ac.id",
+      email: "ti@poltekimipas.ac.id",
       telepon: "(021) 1234-5675",
       lokasi: "Gedung A, Lantai 3"
     }
@@ -324,7 +324,7 @@ const programDetails = {
     },
     
     kontak: {
-      email: "manajemen@poltekip.ac.id",
+      email: "manajemen@poltekimipas.ac.id",
       telepon: "(021) 1234-5678",
       lokasi: "Gedung A, Lantai 3"
     }
@@ -405,7 +405,7 @@ const programDetails = {
     },
     
     kontak: {
-      email: "teknik@poltekip.ac.id",
+      email: "teknik@poltekimipas.ac.id",
       telepon: "(021) 1234-5679",
       lokasi: "Gedung B, Lantai 2"
     }
@@ -488,7 +488,7 @@ const programDetails = {
     },
     
     kontak: {
-      email: "bimbingan@poltekip.ac.id",
+      email: "bimbingan@poltekimipas.ac.id",
       telepon: "(021) 1234-5680",
       lokasi: "Gedung C, Lantai 1"
     }
