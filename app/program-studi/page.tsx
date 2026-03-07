@@ -1,7 +1,7 @@
 "use client"
 
 import { useState, useEffect } from "react"
-import { Shield, Wrench, Users, ArrowLeft, ArrowRight, BookOpen, Award, Clock, Users2, FileText } from "lucide-react"
+import { Shield, Wrench, Users, ArrowLeft, ArrowRight, BookOpen, Award, Clock, Users2, FileText, Scale, Building, UserCheck } from "lucide-react"
 import Link from "next/link"
 
 const programs = [
@@ -54,7 +54,7 @@ const programs = [
     ]
   },
   {
-    icon: Shield,
+    icon: Scale,
     title: "D-IV Manajemen Pemasyarakatan",
     description:
       "Program studi yang mempersiapkan tenaga profesional dalam bidang manajemen lembaga pemasyarakatan, pengelolaan warga binaan, dan administrasi pemasyarakatan secara komprehensif.",
@@ -86,7 +86,7 @@ const programs = [
     ]
   },
   {
-    icon: Users,
+    icon: UserCheck,
     title: "D-IV Bimbingan Pemasyarakatan",
     description:
       "Program studi yang menghasilkan tenaga ahli dalam bidang pembimbingan dan pendampingan klien pemasyarakatan, rehabilitasi sosial, dan reintegrasi masyarakat.",
@@ -207,6 +207,21 @@ export default function ProgramStudiPage() {
 
         .program-icon-wrapper.teal {
           background: #0F766E;
+          color: white;
+        }
+
+        .program-icon-wrapper.purple {
+          background: #7C3AED;
+          color: white;
+        }
+
+        .program-icon-wrapper.orange {
+          background: #EA580C;
+          color: white;
+        }
+
+        .program-icon-wrapper.green {
+          background: #16A34A;
           color: white;
         }
 
@@ -399,7 +414,7 @@ export default function ProgramStudiPage() {
           <div className="max-w-7xl mx-auto px-4">
             <div className="grid gap-8 md:grid-cols-3">
               {programs.map((program, index) => {
-                const iconColors = ['navy', 'gold', 'teal']
+                const iconColors = ['navy', 'gold', 'teal', 'purple', 'orange', 'green']
                 return (
                   <div key={index} className="program-card">
                     <div className={`program-icon-wrapper ${iconColors[index]}`}>

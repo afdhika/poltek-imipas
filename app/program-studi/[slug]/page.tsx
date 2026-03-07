@@ -1,7 +1,7 @@
 "use client"
 
 import { useState, useEffect } from "react"
-import { Shield, Wrench, Users, ArrowLeft, ArrowRight, BookOpen, Award, Clock, Users2, MapPin, Phone, Mail, FileText, Download, CheckCircle, Target, TrendingUp } from "lucide-react"
+import { Shield, Wrench, Users, ArrowLeft, ArrowRight, BookOpen, Award, Clock, Users2, MapPin, Phone, Mail, FileText, Download, CheckCircle, Target, TrendingUp, UserCheck } from "lucide-react"
 import Link from "next/link"
 import { useParams } from "next/navigation"
 
@@ -408,6 +408,89 @@ const programDetails = {
       email: "teknik@poltekip.ac.id",
       telepon: "(021) 1234-5679",
       lokasi: "Gedung B, Lantai 2"
+    }
+  },
+  
+  "bimbingan-pemasyarakatan": {
+    icon: UserCheck,
+    title: "D-IV Bimbingan Pemasyarakatan",
+    subtitle: "Program Studi Unggulan dengan Akreditasi Baik",
+    description:
+      "Program studi Bimbingan Pemasyarakatan dirancang untuk menghasilkan tenaga ahli dalam bidang pembimbingan dan pendampingan klien pemasyarakatan, rehabilitasi sosial, dan reintegrasi masyarakat.",
+    akreditasi: "Terakreditasi Baik",
+    durasi: "4 Tahun (8 Semester)",
+    kuota: 115,
+    jenjang: "Diploma IV (Sarjana Terapan)",
+    gelar: "S.Tr.Ps (Sarjana Terapan Pemasyarakatan)",
+    
+    visi: "Menjadi program studi unggulan dalam pengembangan ilmu pengetahuan dan teknologi di bidang bimbingan pemasyarakatan yang berintegritas, inovatif, dan berwawasan global pada tahun 2030.",
+    
+    misi: [
+      "Menyelenggarakan pendidikan vokasi yang berkualitas dalam bidang bimbingan pemasyarakatan",
+      "Mengembangkan penelitian applied research yang berkontribusi pada kemajuan dunia pemasyarakatan",
+      "Melaksanakan pengabdian kepada masyarakat dalam rangka meningkatkan kualitas layanan bimbingan",
+      "Membangun jaringan kerjasama dengan institusi pemasyarakatan dan lembaga terkait"
+    ],
+    
+    kompetensi: [
+      {
+        title: "Kompetensi Inti",
+        items: [
+          "Bimbingan dan Konseling",
+          "Rehabilitasi Sosial",
+          "Reintegrasi Masyarakat",
+          "Psikologi Pemasyarakatan"
+        ]
+      },
+      {
+        title: "Kompetensi Pendukung",
+        items: [
+          "Teknik Konseling Individual",
+          "Manajemen Kasus",
+          "Assessment Psikologis",
+          "Program Intervensi"
+        ]
+      }
+    ],
+    
+    kurikulum: [
+      "Psikologi Pemasyarakatan",
+      "Teknik Bimbingan Konseling",
+      "Rehabilitasi Sosial",
+      "Manajemen Kasus",
+      "Psikologi Kriminal",
+      "Etika Profesi Bimbingan",
+      "Metode Penelitian Sosial",
+      "Praktikum Bimbingan"
+    ],
+    
+    prospek: [
+      "Pembimbing Narapidana",
+      "Konselor Rehabilitasi Sosial",
+      "Staf Lembaga Pemasyarakatan",
+      "Analis Perilaku Klien",
+      "Koordinator Program Reintegrasi"
+    ],
+    
+    fasilitas: [
+      "Laboratorium Konseling",
+      "Ruang Simulasi Bimbingan",
+      "Pusat Riset Perilaku",
+      "Area Diskusi Kelompok",
+      "Perpustakaan Khusus Psikologi"
+    ],
+    
+    biaya: {
+      spp: "Rp 600.000/semester",
+      praktik: "Rp 800.000/semester",
+      alat: "Rp 2.500.000 (sekali)",
+      total: "Rp 5.900.000/tahun"
+    },
+    
+    kontak: {
+      email: "bimbingan@poltekip.ac.id",
+      telepon: "(021) 1234-5680",
+      lokasi: "Gedung C, Lantai 1"
     }
   }
 }
