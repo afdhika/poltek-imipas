@@ -55,7 +55,7 @@ const programs = [
   },
   {
     icon: Scale,
-    title: "D-IV Manajemen Pemasyarakatan",
+    title: "Manajemen Pemasyarakatan",
     description:
       "Program studi yang mempersiapkan tenaga profesional dalam bidang manajemen lembaga pemasyarakatan, pengelolaan warga binaan, dan administrasi pemasyarakatan secara komprehensif.",
     akreditasi: "Terakreditasi Baik Sekali",
@@ -71,7 +71,7 @@ const programs = [
   },
   {
     icon: Wrench,
-    title: "D-IV Teknik Pemasyarakatan",
+    title: "Teknik Pemasyarakatan",
     description:
       "Program studi yang fokus pada penguasaan teknologi keamanan, sistem pengawasan modern, dan teknik pengelolaan fasilitas pemasyarakatan yang efektif dan efisien.",
     akreditasi: "Terakreditasi Baik Sekali",
@@ -87,7 +87,7 @@ const programs = [
   },
   {
     icon: UserCheck,
-    title: "D-IV Bimbingan Pemasyarakatan",
+    title: "Bimbingan Pemasyarakatan",
     description:
       "Program studi yang menghasilkan tenaga ahli dalam bidang pembimbingan dan pendampingan klien pemasyarakatan, rehabilitasi sosial, dan reintegrasi masyarakat.",
     akreditasi: "Terakreditasi Baik",
@@ -171,6 +171,8 @@ export default function ProgramStudiPage() {
           transition: all 0.3s ease;
           border: 1px solid #e5e7eb;
           height: 100%;
+          display: flex;
+          flex-direction: column;
         }
 
         .program-card:hover {
@@ -290,6 +292,8 @@ export default function ProgramStudiPage() {
           gap: 8px;
           text-decoration: none;
           transition: all 0.3s ease;
+          margin-top: auto;
+          width: fit-content;
         }
 
         .btn-primary:hover {
@@ -381,8 +385,8 @@ export default function ProgramStudiPage() {
                 Program Studi
               </h1>
               <p className="text-xl text-white/90 max-w-3xl mx-auto leading-relaxed">
-                POLTEKIP menyelenggarakan tiga program studi diploma empat (D-IV) yang 
-                dirancang untuk menghasilkan tenaga profesional di bidang pemasyarakatan 
+                POLTEKIMIPAS menyelenggarakan enam program studi diploma empat (D-IV) yang 
+                dirancang untuk menghasilkan tenaga profesional di bidang pemasyarakatan dan imigrasi
                 dengan standar kompetensi yang tinggi.
               </p>
             </div>
@@ -390,7 +394,7 @@ export default function ProgramStudiPage() {
             {/* Stats */}
             <div className="stats-grid">
               <div className="stat-card">
-                <div className="stat-number">3</div>
+                <div className="stat-number">6</div>
                 <div className="stat-label">Program Studi</div>
               </div>
               <div className="stat-card">
@@ -473,7 +477,7 @@ export default function ProgramStudiPage() {
         <section className="py-20 bg-white">
           <div className="max-w-4xl mx-auto px-4 text-center">
             <h2 className="text-3xl font-bold text-gray-900 mb-6" style={{ fontFamily: "Plus Jakarta Sans, sans-serif" }}>
-              Siap Bergabung dengan POLTEKIP?
+              Siap Bergabung dengan POLTEKIMIPAS?
             </h2>
             <p className="text-xl text-gray-600 mb-8">
               Dapatkan informasi lengkap tentang pendaftaran, persyaratan, dan jadwal seleksi
