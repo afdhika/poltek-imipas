@@ -88,6 +88,174 @@ const articles = [
     slug: "mou-kemenkumham-program-magang",
     tags: ["MoU", "Kerjasama", "Magang", "Kemenkumham"],
     author: "Biro Kerjasama POLTEKIMIPAS"
+  },
+  {
+    id: 7,
+    image: "/images/gallery-1.jpg",
+    category: "Akademik",
+    date: "5 Januari 2026",
+    readTime: "5 menit",
+    views: 987,
+    title: "Peresmian Laboratorium Forensik Digital Terbaru",
+    excerpt:
+      "POLTEKIMIPAS meresmikan laboratorium forensik digital dengan peralatan canggih untuk mendukung pembelajaran praktik.",
+    slug: "peresmian-lab-forensik-digital",
+    tags: ["Laboratorium", "Forensik Digital", "Fasilitas", "Teknologi"],
+    author: "Biro Akademik POLTEKIMIPAS"
+  },
+  {
+    id: 8,
+    image: "/images/news-2.jpg",
+    category: "Kegiatan Taruna",
+    date: "28 Desember 2025",
+    readTime: "4 menit",
+    views: 1543,
+    title: "Kunjungan Industri ke Lembaga Pemasyarakatan Kelas IIA",
+    excerpt:
+      "Taruna semester VI melakukan kunjungan industri untuk mempelajari manajemen lembaga pemasyarakatan secara langsung.",
+    slug: "kunjungan-industri-lapas",
+    tags: ["Kunjungan Industri", "Lapas", "Praktik", "Taruna"],
+    author: "Tim Akademik POLTEKIMIPAS"
+  },
+  {
+    id: 9,
+    image: "/images/news-3.jpg",
+    category: "Prestasi",
+    date: "20 Desember 2025",
+    readTime: "3 menit",
+    views: 2109,
+    title: "Taruna POLTEKIMIPAS Juara 1 Olimpiade Sains Nasional",
+    excerpt:
+      "Tim olimpiade sains POLTEKIMIPAS berhasil meraih medali emas dalam kompetisi sains tingkat nasional.",
+    slug: "juara-olimpiade-sains",
+    tags: ["Prestasi", "Olimpiade", "Sains", "Juara"],
+    author: "Biro Prestasi POLTEKIMIPAS"
+  },
+  {
+    id: 10,
+    image: "/images/gallery-4.jpg",
+    category: "Kebijakan",
+    date: "15 Desember 2025",
+    readTime: "6 menit",
+    views: 1876,
+    title: "Implementasi Kurikulum Merdeka Belajar di POLTEKIMIPAS",
+    excerpt:
+      "POLTEKIMIPAS mulai mengimplementasikan kurikulum merdeka belajar untuk meningkatkan kualitas pendidikan vokasi.",
+    slug: "kurikulum-merdeka-belajar",
+    tags: ["Kurikulum", "Merdeka Belajar", "Pendidikan", "Inovasi"],
+    author: "Biro Kurikulum POLTEKIMIPAS"
+  },
+  {
+    id: 11,
+    image: "/images/gallery-2.jpg",
+    category: "Kerjasama",
+    date: "10 Desember 2025",
+    readTime: "4 menit",
+    views: 1321,
+    title: "Kerjasama dengan Universitas Terkemuka untuk Program Double Degree",
+    excerpt:
+      "POLTEKIMIPAS menjalin kerjasama dengan universitas internasional untuk program double degree bagi taruna berprestasi.",
+    slug: "kerjasama-double-degree",
+    tags: ["Kerjasama", "Double Degree", "Internasional", "Universitas"],
+    author: "Biro Kerjasama Internasional POLTEKIMIPAS"
+  },
+  {
+    id: 12,
+    image: "/images/gallery-3.jpg",
+    category: "Akademik",
+    date: "5 Desember 2025",
+    readTime: "5 menit",
+    views: 1654,
+    title: "Seminar Nasional Reformasi Pemasyarakatan Era Digital",
+    excerpt:
+      "POLTEKIMIPAS menyelenggarakan seminar nasional membahas reformasi pemasyarakatan di era digital dengan narasumber ahli.",
+    slug: "seminar-reformasi-pemasyarakatan",
+    tags: ["Seminar", "Nasional", "Reformasi", "Digital"],
+    author: "Panitia Seminar POLTEKIMIPAS"
+  },
+  {
+    id: 13,
+    image: "/images/gallery-1.jpg",
+    category: "Kegiatan Taruna",
+    date: "28 November 2025",
+    readTime: "4 menit",
+    views: 1432,
+    title: "Pelatihan Kepemimpinan Taruna di Alam Terbuka",
+    excerpt:
+      "Taruna POLTEKIMIPAS mengikuti pelatihan kepemimpinan di alam terbuka untuk membangun karakter dan teamwork.",
+    slug: "pelatihan-kepemimpinan-alam-terbuka",
+    tags: ["Pelatihan", "Kepemimpinan", "Outbound", "Character Building"],
+    author: "Biro Taruna POLTEKIMIPAS"
+  },
+  {
+    id: 14,
+    image: "/images/news-2.jpg",
+    category: "Prestasi",
+    date: "20 November 2025",
+    readTime: "3 menit",
+    views: 1987,
+    title: "Tim Robotik POLTEKIMIPAS Juara 2 Kompetisi Nasional",
+    excerpt:
+      "Tim robotik POLTEKIMIPAS berhasil meraih juara kedua dalam kompetisi robotik tingkat nasional di Jakarta.",
+    slug: "tim-robotik-juara-2",
+    tags: ["Robotik", "Kompetisi", "Teknologi", "Prestasi"],
+    author: "Biro Teknologi POLTEKIMIPAS"
+  },
+  {
+    id: 15,
+    image: "/images/news-3.jpg",
+    category: "Akademik",
+    date: "15 November 2025",
+    readTime: "6 menit",
+    views: 1234,
+    title: "Implementasi Sistem Pembelajaran Online Terintegrasi",
+    excerpt:
+      "POLTEKIMIPAS meluncurkan sistem pembelajaran online terintegrasi untuk mendukung pembelajaran hybrid.",
+    slug: "sistem-pembelajaran-online",
+    tags: ["Online Learning", "Hybrid", "Teknologi Edukasi", "Digital"],
+    author: "Biro IT POLTEKIMIPAS"
+  },
+  {
+    id: 16,
+    image: "/images/gallery-4.jpg",
+    category: "Kebijakan",
+    date: "10 November 2025",
+    readTime: "5 menit",
+    views: 1567,
+    title: "Standar Operasional Prosedur Baru Lembaga Pemasyarakatan",
+    excerpt:
+      "Kementerian Hukum dan HAM bersama POLTEKIMIPAS menyusun SOP baru untuk lembaga pemasyarakatan modern.",
+    slug: "sop-baru-lembaga-pemasyarakatan",
+    tags: ["SOP", "Kebijakan", "Standar", "Modernisasi"],
+    author: "Biro Kebijakan POLTEKIMIPAS"
+  },
+  {
+    id: 17,
+    image: "/images/gallery-2.jpg",
+    category: "Kerjasama",
+    date: "5 November 2025",
+    readTime: "4 menit",
+    views: 1098,
+    title: "MoU dengan Perusahaan Teknologi untuk Magang IT",
+    excerpt:
+      "POLTEKIMIPAS menjalin kerjasama dengan perusahaan teknologi ternama untuk program magang IT taruna.",
+    slug: "mou-perusahaan-teknologi",
+    tags: ["MoU", "Teknologi", "Magang", "IT"],
+    author: "Biro Kerjasama POLTEKIMIPAS"
+  },
+  {
+    id: 18,
+    image: "/images/gallery-3.jpg",
+    category: "Kegiatan Taruna",
+    date: "1 November 2025",
+    readTime: "3 menit",
+    views: 1876,
+    title: "Festival Seni dan Budaya Taruna POLTEKIMIPAS 2025",
+    excerpt:
+      "Taruna menampilkan berbagai penampilan seni dan budaya dalam festival tahunan yang merayakan keberagaman.",
+    slug: "festival-seni-budaya-2025",
+    tags: ["Festival", "Seni", "Budaya", "Taruna"],
+    author: "Biro Kesenian POLTEKIMIPAS"
   }
 ]
 
@@ -97,6 +265,8 @@ export default function BeritaPage() {
   const [searchTerm, setSearchTerm] = useState("")
   const [selectedCategory, setSelectedCategory] = useState("Semua")
   const [filteredArticles, setFilteredArticles] = useState(articles)
+  const [currentPage, setCurrentPage] = useState(1)
+  const articlesPerPage = 6
 
   useEffect(() => {
     let filtered = articles
@@ -116,7 +286,14 @@ export default function BeritaPage() {
     }
 
     setFilteredArticles(filtered)
+    setCurrentPage(1) // Reset to page 1 when filters change
   }, [searchTerm, selectedCategory])
+
+  // Calculate pagination
+  const indexOfLastArticle = currentPage * articlesPerPage
+  const indexOfFirstArticle = indexOfLastArticle - articlesPerPage
+  const currentArticles = filteredArticles.slice(indexOfFirstArticle, indexOfLastArticle)
+  const totalPages = Math.ceil(filteredArticles.length / articlesPerPage)
 
   return (
     <>
@@ -240,10 +417,23 @@ export default function BeritaPage() {
         }
 
         .article-image {
-          height: 200px;
           width: 100%;
+          height: 200px;
           object-fit: cover;
-          transition: transform 0.5s ease;
+          transition: transform 0.3s ease;
+        }
+
+        .article-image-placeholder {
+          width: 100%;
+          height: 200px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          font-size: 48px;
+          font-weight: bold;
+          color: white;
+          font-family: 'Plus Jakarta Sans', sans-serif;
+          background: linear-gradient(135deg, #1B3A6B 0%, #2C4F7C 100%);
         }
 
         .article-card:hover .article-image {
@@ -367,6 +557,68 @@ export default function BeritaPage() {
           justify-content: center;
         }
 
+        /* Pagination */
+        .pagination {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          gap: 8px;
+          margin-top: 48px;
+        }
+
+        .pagination-btn {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          width: 40px;
+          height: 40px;
+          border: 1px solid #e5e7eb;
+          background: white;
+          border-radius: 8px;
+          font-family: 'Plus Jakarta Sans', sans-serif;
+          font-size: 14px;
+          font-weight: 500;
+          color: #6b7280;
+          cursor: pointer;
+          transition: all 0.2s;
+          text-decoration: none;
+        }
+
+        .pagination-btn:hover {
+          background: #f9fafb;
+          border-color: #d1d5db;
+          color: #374151;
+        }
+
+        .pagination-btn.active {
+          background: #1B3A6B;
+          border-color: #1B3A6B;
+          color: white;
+        }
+
+        .pagination-btn.active:hover {
+          background: #2C4F7C;
+          border-color: #2C4F7C;
+        }
+
+        .pagination-btn:disabled {
+          opacity: 0.5;
+          cursor: not-allowed;
+        }
+
+        .pagination-btn:disabled:hover {
+          background: white;
+          border-color: #e5e7eb;
+          color: #6b7280;
+        }
+
+        .pagination-info {
+          font-size: 14px;
+          color: #6b7280;
+          margin: 0 16px;
+          font-family: 'Plus Jakarta Sans', sans-serif;
+        }
+
         /* Responsive */
         @media (max-width: 768px) {
           .search-filter-container {
@@ -450,16 +702,22 @@ export default function BeritaPage() {
         {/* Articles Grid */}
         <section className="py-12">
           <div className="max-w-7xl mx-auto px-4">
-            {filteredArticles.length > 0 ? (
+            {currentArticles.length > 0 ? (
               <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
-                {filteredArticles.map((article) => (
+                {currentArticles.map((article) => (
                   <article key={article.id} className="article-card">
                     <div className="relative overflow-hidden">
-                      <img
-                        src={article.image}
-                        alt={article.title}
-                        className="article-image"
-                      />
+                      {article.id <= 6 ? (
+                        <img
+                          src={article.image}
+                          alt={article.title}
+                          className="article-image"
+                        />
+                      ) : (
+                        <div className="article-image-placeholder">
+                          {article.title.charAt(0)}
+                        </div>
+                      )}
                       <div className="article-overlay" />
                       <span className="category-badge">
                         <Tag className="h-3 w-3" />
@@ -525,6 +783,57 @@ export default function BeritaPage() {
               </div>
             )}
           </div>
+
+          {/* Pagination */}
+          {totalPages > 1 && (
+            <div className="pagination">
+              <button
+                className="pagination-btn"
+                onClick={() => setCurrentPage(currentPage - 1)}
+                disabled={currentPage === 1}
+              >
+                ←
+              </button>
+
+              {/* Page numbers */}
+              {Array.from({ length: totalPages }, (_, i) => i + 1).map((page) => {
+                // Show max 5 page numbers
+                if (
+                  page === 1 ||
+                  page === totalPages ||
+                  (page >= currentPage - 1 && page <= currentPage + 1)
+                ) {
+                  return (
+                    <button
+                      key={page}
+                      className={`pagination-btn ${currentPage === page ? 'active' : ''}`}
+                      onClick={() => setCurrentPage(page)}
+                    >
+                      {page}
+                    </button>
+                  )
+                }
+
+                // Show dots for hidden pages
+                if (
+                  (page === currentPage - 2 && page > 1) ||
+                  (page === currentPage + 2 && page < totalPages)
+                ) {
+                  return <span key={page} style={{ padding: '0 4px' }}>...</span>
+                }
+
+                return null
+              })}
+
+              <button
+                className="pagination-btn"
+                onClick={() => setCurrentPage(currentPage + 1)}
+                disabled={currentPage === totalPages}
+              >
+                →
+              </button>
+            </div>
+          )}
         </section>
       </div>
     </>
