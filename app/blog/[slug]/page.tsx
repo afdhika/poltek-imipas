@@ -19,8 +19,34 @@ import {
 import Link from "next/link"
 import { notFound } from "next/navigation"
 
+// ─── Type definitions ─────────────────────────────────────────────────────
+type ContentSection = 
+  | { type: 'paragraph'; text: string }
+  | { type: 'heading'; text: string; level: number }
+  | { type: 'list'; items: string[] }
+  | { type: 'quote'; text: string; source?: string }
+
+type BlogPost = {
+  id: number
+  slug: string
+  category: string
+  date: string
+  readTime: string
+  views: number
+  title: string
+  subtitle: string
+  image: string
+  author: {
+    name: string
+    role: string
+    initial: string
+  }
+  tags: string[]
+  content: ContentSection[]
+}
+
 // ─── Mock blog data (replace with real fetch by slug) ─────────────────────
-const posts = {
+const posts: Record<string, BlogPost> = {
   "transformasi-digital-sistem-pemasyarakatan": {
     id: 1,
     slug: "transformasi-digital-sistem-pemasyarakatan",
