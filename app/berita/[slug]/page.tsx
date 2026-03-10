@@ -661,7 +661,7 @@ export default function BeritaDetailPage({ params }: { params: Promise<{ slug: s
                 </span>
                 <span className="flex items-center gap-1.5 text-sm" style={{ color: "#5A6B7F" }}>
                   <Eye className="h-3.5 w-3.5" />
-                  {article.views.toLocaleString()} dilihat
+                  {article.views.toLocaleString('id-ID')} dilihat
                 </span>
               </div>
 
