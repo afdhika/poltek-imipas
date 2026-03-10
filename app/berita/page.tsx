@@ -1,6 +1,7 @@
 "use client"
 
 import { useState, useEffect } from "react"
+import { useSearchParams } from "next/navigation"
 import { Calendar, ArrowRight, Tag, Search, Filter, ArrowLeft } from "lucide-react"
 import Link from "next/link"
 
@@ -262,11 +263,24 @@ const articles = [
 const categories = ["Semua", "Kegiatan Taruna", "Akademik", "Kebijakan", "Prestasi", "Kerjasama"]
 
 export default function BeritaPage() {
+  const searchParams = useSearchParams()
   const [searchTerm, setSearchTerm] = useState("")
   const [selectedCategory, setSelectedCategory] = useState("Semua")
   const [filteredArticles, setFilteredArticles] = useState(articles)
   const [currentPage, setCurrentPage] = useState(1)
   const articlesPerPage = 6
+
+  useEffect(() => {
+    // Get category from URL query parameter
+    const kategoriParam = searchParams.get('kategori')
+    
+    // Set selected category based on URL parameter
+    if (kategoriParam && categories.includes(kategoriParam)) {
+      setSelectedCategory(kategoriParam)
+    } else {
+      setSelectedCategory("Semua")
+    }
+  }, [searchParams])
 
   useEffect(() => {
     let filtered = articles
