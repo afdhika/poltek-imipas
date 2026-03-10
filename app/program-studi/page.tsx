@@ -4,7 +4,7 @@ import { useState, useEffect } from "react"
 import { Shield, Wrench, Users, ArrowLeft, ArrowRight, BookOpen, Award, Clock, Users2, FileText, Scale, Building, UserCheck } from "lucide-react"
 import Link from "next/link"
 
-const programs = [
+const immigrationPrograms = [
   {
     icon: FileText,
     title: "Administrasi Keimigrasian",
@@ -52,7 +52,10 @@ const programs = [
       "Teknologi Operasional",
       "Digital Imigrasi"
     ]
-  },
+  }
+]
+
+const pemasyarakatanPrograms = [
   {
     icon: Scale,
     title: "Manajemen Pemasyarakatan",
@@ -100,8 +103,75 @@ const programs = [
       "Reintegrasi Masyarakat",
       "Psikologi Pemasyarakatan"
     ]
-  },
+  }
 ]
+
+// Define interface for program data
+interface Program {
+  icon: React.ComponentType<any>
+  title: string
+  description: string
+  akreditasi: string
+  durasi: string
+  kuota: number
+  slug: string
+  highlight: string[]
+}
+
+// Component untuk render program cards
+const ProgramCard = ({ program, index }: { program: Program; index: number }) => {
+  const iconColors = ['navy', 'gold', 'teal', 'purple', 'orange', 'green']
+  
+  return (
+    <div className="program-card">
+      <div className={`program-icon-wrapper ${iconColors[index]}`}>
+        <program.icon className="h-8 w-8" />
+      </div>
+
+      <h3 className="text-xl font-bold text-gray-900 mb-4" style={{ fontFamily: "Plus Jakarta Sans, sans-serif" }}>
+        {program.title}
+      </h3>
+
+      <p className="text-gray-600 leading-relaxed mb-6">
+        {program.description}
+      </p>
+
+      <div className="mb-6">
+        <div className="flex flex-wrap gap-2 mb-4">
+          <span className="badge badge-navy">
+            <Award className="h-3 w-3 inline mr-1" />
+            {program.akreditasi}
+          </span>
+          <span className="badge badge-gold">
+            <Clock className="h-3 w-3 inline mr-1" />
+            {program.durasi}
+          </span>
+          <span className="badge badge-teal">
+            <Users2 className="h-3 w-3 inline mr-1" />
+            Kuota: {program.kuota}
+          </span>
+        </div>
+      </div>
+
+      <div className="mb-6">
+        <h4 className="font-semibold text-gray-900 mb-3 flex items-center">
+          <BookOpen className="h-4 w-4 mr-2" />
+          Fokus Studi
+        </h4>
+        <ul className="highlight-list">
+          {program.highlight.map((item: string, idx: number) => (
+            <li key={idx}>{item}</li>
+          ))}
+        </ul>
+      </div>
+
+      <a href={`/program-studi/${program.slug}`} className="btn-primary">
+        Selengkapnya
+        <ArrowRight className="h-4 w-4" />
+      </a>
+    </div>
+  )
+}
 
 export default function ProgramStudiPage() {
   const [scrollProgress, setScrollProgress] = useState(0)
@@ -413,62 +483,42 @@ export default function ProgramStudiPage() {
           </div>
         </section>
 
-        {/* Programs Section */}
+        {/* Programs Section - Imigrasi */}
         <section className="py-20 bg-gray-50">
           <div className="max-w-7xl mx-auto px-4">
+            <div className="text-center mb-12">
+              <h2 className="text-3xl font-bold text-navy mb-4" style={{ fontFamily: "Plus Jakarta Sans, sans-serif" }}>
+                Program Studi Keimigrasian
+              </h2>
+              <p className="text-lg text-gray-600 max-w-3xl mx-auto">
+                Program studi di bidang keimigrasian yang dirancang untuk menghasilkan tenaga profesional 
+                dalam administrasi, hukum, dan teknologi keimigrasian.
+              </p>
+            </div>
             <div className="grid gap-8 md:grid-cols-3">
-              {programs.map((program, index) => {
-                const iconColors = ['navy', 'gold', 'teal', 'purple', 'orange', 'green']
-                return (
-                  <div key={index} className="program-card">
-                    <div className={`program-icon-wrapper ${iconColors[index]}`}>
-                      <program.icon className="h-8 w-8" />
-                    </div>
+              {immigrationPrograms.map((program, index) => (
+                <ProgramCard key={index} program={program} index={index} />
+              ))}
+            </div>
+          </div>
+        </section>
 
-                    <h3 className="text-xl font-bold text-gray-900 mb-4" style={{ fontFamily: "Plus Jakarta Sans, sans-serif" }}>
-                      {program.title}
-                    </h3>
-
-                    <p className="text-gray-600 leading-relaxed mb-6">
-                      {program.description}
-                    </p>
-
-                    <div className="mb-6">
-                      <div className="flex flex-wrap gap-2 mb-4">
-                        <span className="badge badge-navy">
-                          <Award className="h-3 w-3 inline mr-1" />
-                          {program.akreditasi}
-                        </span>
-                        <span className="badge badge-gold">
-                          <Clock className="h-3 w-3 inline mr-1" />
-                          {program.durasi}
-                        </span>
-                        <span className="badge badge-teal">
-                          <Users2 className="h-3 w-3 inline mr-1" />
-                          Kuota: {program.kuota}
-                        </span>
-                      </div>
-                    </div>
-
-                    <div className="mb-6">
-                      <h4 className="font-semibold text-gray-900 mb-3 flex items-center">
-                        <BookOpen className="h-4 w-4 mr-2" />
-                        Fokus Studi
-                      </h4>
-                      <ul className="highlight-list">
-                        {program.highlight.map((item, idx) => (
-                          <li key={idx}>{item}</li>
-                        ))}
-                      </ul>
-                    </div>
-
-                    <a href={`/program-studi/${program.slug}`} className="btn-primary">
-                      Selengkapnya
-                      <ArrowRight className="h-4 w-4" />
-                    </a>
-                  </div>
-                )
-              })}
+        {/* Programs Section - Pemasyarakatan */}
+        <section className="py-20 bg-white">
+          <div className="max-w-7xl mx-auto px-4">
+            <div className="text-center mb-12">
+              <h2 className="text-3xl font-bold text-navy mb-4" style={{ fontFamily: "Plus Jakarta Sans, sans-serif" }}>
+                Program Studi Pemasyarakatan
+              </h2>
+              <p className="text-lg text-gray-600 max-w-3xl mx-auto">
+                Program studi di bidang pemasyarakatan yang fokus pada manajemen, teknik, dan bimbingan 
+                lembaga pemasyarakatan untuk mendukung sistem pemasyarakatan modern.
+              </p>
+            </div>
+            <div className="grid gap-8 md:grid-cols-3">
+              {pemasyarakatanPrograms.map((program, index) => (
+                <ProgramCard key={index} program={program} index={index + 3} />
+              ))}
             </div>
           </div>
         </section>
