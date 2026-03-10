@@ -1,8 +1,8 @@
 "use client"
 
-import { useState, useEffect } from "react"
+import { useState, useEffect, useMemo, Suspense } from "react"
 import { useSearchParams } from "next/navigation"
-import { Calendar, ArrowRight, Tag, Search, Filter, ArrowLeft } from "lucide-react"
+import { Search, Filter, Calendar, Clock, Eye, ChevronLeft, ChevronRight } from "lucide-react"
 import Link from "next/link"
 
 const articles = [
@@ -262,7 +262,8 @@ const articles = [
 
 const categories = ["Semua", "Kegiatan Taruna", "Akademik", "Kebijakan", "Prestasi", "Kerjasama"]
 
-export default function BeritaPage() {
+// Komponen yang menggunakan useSearchParams
+function BeritaContent() {
   const searchParams = useSearchParams()
   const [searchTerm, setSearchTerm] = useState("")
   const [selectedCategory, setSelectedCategory] = useState("Semua")
@@ -858,5 +859,14 @@ export default function BeritaPage() {
         </section>
       </div>
     </>
+  )
+}
+
+// Default export yang wrap dengan Suspense
+export default function BeritaPage() {
+  return (
+    <Suspense fallback={<div>Loading...</div>}>
+      <BeritaContent />
+    </Suspense>
   )
 }
