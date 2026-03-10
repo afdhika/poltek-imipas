@@ -709,6 +709,13 @@ export default function BeritaPage() {
                   ))}
                 </div>
               </div>
+
+              {/* Results Count */}
+              <div className="text-sm text-muted-foreground mt-4">
+                Menampilkan {currentArticles.length} dari {filteredArticles.length} artikel
+                {searchTerm && ` untuk "${searchTerm}"`}
+                {selectedCategory !== "Semua" && ` di kategori "${selectedCategory}"`}
+              </div>
             </div>
           </div>
         </section>
