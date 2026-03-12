@@ -2,7 +2,7 @@
 
 import { useState, useEffect, useMemo, Suspense } from "react"
 import { useSearchParams } from "next/navigation"
-import { Search, Filter, Calendar, Clock, Eye, ChevronLeft, ChevronRight } from "lucide-react"
+import { Search, Filter, Calendar, ArrowLeft, ArrowRight, Tag } from "lucide-react"
 import Link from "next/link"
 
 const articles = [
