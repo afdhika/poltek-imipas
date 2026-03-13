@@ -32,7 +32,6 @@ interface NavbarProps {
 }
 
 export default function Navbar({ onSearchOpen }: NavbarProps) {
-  const [scrolled, setScrolled] = useState(false)
   const [mobileOpen, setMobileOpen] = useState(false)
   const [activeDropdown, setActiveDropdown] = useState<string | null>(null)
   const [activeLink, setActiveLink] = useState("Beranda")
@@ -45,12 +44,6 @@ export default function Navbar({ onSearchOpen }: NavbarProps) {
     checkMobile()
     window.addEventListener("resize", checkMobile)
     return () => window.removeEventListener("resize", checkMobile)
-  }, [])
-
-  useEffect(() => {
-    const handleScroll = () => setScrolled(window.scrollY > 30)
-    window.addEventListener("scroll", handleScroll)
-    return () => window.removeEventListener("scroll", handleScroll)
   }, [])
 
   useEffect(() => {
@@ -183,14 +176,6 @@ export default function Navbar({ onSearchOpen }: NavbarProps) {
           padding: 12px 0;
           transition: all 0.35s cubic-bezier(0.4, 0, 0.2, 1);
           border-bottom: 1px solid transparent;
-        }
-        .main-nav.scrolled .nav-body {
-          background: rgba(8, 17, 38, 0.97);
-          backdrop-filter: blur(20px);
-          -webkit-backdrop-filter: blur(20px);
-          box-shadow: 0 8px 32px rgba(0,0,0,0.35);
-          border-bottom-color: rgba(201,163,79,0.12);
-          padding: 8px 0;
         }
         .nav-inner {
           max-width: 1280px;
@@ -643,7 +628,7 @@ export default function Navbar({ onSearchOpen }: NavbarProps) {
         }
       `}</style>
 
-      <nav className={`main-nav navbar-root ${scrolled ? "scrolled" : ""}`}>
+      <nav className="main-nav navbar-root">
 
         {/* ── Top bar ── */}
         <div className="topbar">
