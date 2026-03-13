@@ -124,12 +124,6 @@ export default function Hero() {
             Pelajari Lebih Lanjut
             <ChevronDown className="h-4 w-4" />
           </a>
-          <a
-            href="#program-studi"
-            className="inline-flex items-center gap-2 rounded-lg border border-primary-foreground/20 px-6 py-3 text-sm font-semibold text-primary-foreground transition-all hover:border-gold hover:text-gold"
-          >
-            Program Studi
-          </a>
         </div>
 
         {/* Stats */}

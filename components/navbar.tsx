@@ -19,6 +19,7 @@ const navItems = [
       { label: "Bimbingan Pemasyarakatan", href: "/program-studi/bimbingan-pemasyarakatan" },
     ],
   },
+  { label: "Berita", href: "/berita" },
   { label: "Blog", href: "/blog" },
   { label: "Jurnal", href: "/jurnal" },
   { label: "Perpustakaan", href: "/perpustakaan" },
