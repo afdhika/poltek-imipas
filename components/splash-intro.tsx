@@ -168,7 +168,7 @@ export default function SplashIntro({ onComplete }: { onComplete: () => void }) 
             transition: "opacity 700ms ease",
           }}
         >
-          {/* Hexagonal logo — mirrors navbar logo */}
+          {/* Logo from SVG */}
           <div
             style={{
               transform: phase === "initial" ? "scale(0) rotate(-120deg)" : "scale(1) rotate(0deg)",
@@ -176,9 +176,15 @@ export default function SplashIntro({ onComplete }: { onComplete: () => void }) 
               transition: "transform 700ms cubic-bezier(0.34, 1.56, 0.64, 1), opacity 500ms ease",
             }}
           >
-            <div className="splash-hex">
-              <span className="splash-monogram">PI</span>
-            </div>
+            <img 
+              src="/icon.svg" 
+              alt="POLTEKIMIPAS Logo" 
+              style={{
+                width: "80px",
+                height: "80px",
+                filter: "drop-shadow(0 0 20px rgba(201,163,79,0.4))"
+              }}
+            />
           </div>
 
           {/* POLTEKIMIPAS — letter-by-letter, exactly matching navbar */}

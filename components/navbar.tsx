@@ -671,11 +671,15 @@ export default function Navbar({ onSearchOpen }: NavbarProps) {
 
             {/* Logo */}
             <Link href="/" className="logo-wrap">
-              <div className="logo-mark">
-                <div className="logo-hex">
-                  <span className="logo-monogram">PI</span>
-                </div>
-              </div>
+              <img 
+                src="/icon.svg" 
+                alt="POLTEKIMIPAS Logo" 
+                style={{
+                  width: "42px",
+                  height: "42px",
+                  filter: "drop-shadow(0 0 8px rgba(201,163,79,0.3))"
+                }}
+              />
               <div className="logo-text-group">
                 <div className="logo-text-main">POLTEKI<span>MI</span>PAS</div>
                 <div className="logo-text-sub">Politeknik Ilmu Pemasyarakatan</div>
