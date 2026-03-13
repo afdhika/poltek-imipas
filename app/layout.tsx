@@ -44,7 +44,6 @@ export default function RootLayout({
         className={`${inter.variable} ${poppins.variable} font-sans antialiased`}
       >
         {children}
-        p
         <Analytics />
       </body>
     </html>
