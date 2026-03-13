@@ -58,11 +58,6 @@ function CountUp({ target, suffix = "", icon }: { target: number; suffix?: strin
 }
 
 export default function Hero() {
-  const [loaded, setLoaded] = useState(false)
-
-  useEffect(() => {
-    setLoaded(true)
-  }, [])
 
   return (
     <section id="beranda" className="relative min-h-screen flex items-center justify-center overflow-hidden">
@@ -71,18 +66,14 @@ export default function Hero() {
         <img
           src="/images/hero-bg.jpg"
           alt="Kampus POLTEKIMIPAS"
-          className={`h-full w-full object-cover ${loaded ? "animate-slow-zoom" : ""}`}
+          className="h-full w-full object-cover animate-slow-zoom"
         />
         <div className="absolute inset-0 bg-navy-dark/75" />
       </div>
 
       {/* Content */}
       <div className="relative z-10 mx-auto max-w-5xl px-4 text-center">
-        <div
-          className={`transition-all duration-1000 ${
-            loaded ? "translate-x-0 opacity-100" : "-translate-x-10 opacity-0"
-          }`}
-        >
+        <div>
           <a 
             href="https://kemenimipas.go.id/" 
             target="_blank" 
@@ -93,10 +84,7 @@ export default function Hero() {
           </a>
         </div>
 
-        <h1
-          className={`mb-2 text-4xl font-extrabold leading-tight tracking-tight text-primary-foreground md:text-6xl lg:text-7xl transition-all duration-1000 delay-200 ${
-            loaded ? "translate-x-0 opacity-100" : "-translate-x-10 opacity-0"
-          }`}
+        <h1 className="mb-2 text-4xl font-extrabold leading-tight tracking-tight text-primary-foreground md:text-6xl lg:text-7xl"
           style={{ fontFamily: "var(--font-poppins)" }}
         >
           Politeknik Imigrasi
@@ -104,19 +92,11 @@ export default function Hero() {
           <span className="text-gold">Pemasyarakatan</span>
         </h1>
 
-        <p
-          className={`mx-auto mt-4 max-w-2xl text-lg text-primary-foreground/70 md:text-xl transition-all duration-1000 delay-700 ${
-            loaded ? "opacity-100" : "opacity-0"
-          }`}
-        >
+        <p className="mx-auto mt-4 max-w-2xl text-lg text-primary-foreground/70 md:text-xl">
           Cerdas, Berintegritas, Berdedikasi
         </p>
 
-        <div
-          className={`mt-8 flex flex-wrap items-center justify-center gap-4 transition-all duration-1000 delay-1000 ${
-            loaded ? "translate-y-0 opacity-100" : "translate-y-6 opacity-0"
-          }`}
-        >
+        <div className="mt-8 flex flex-wrap items-center justify-center gap-4">
           <a
             href="#tentang"
             className="inline-flex items-center gap-2 rounded-lg bg-gold px-6 py-3 text-sm font-semibold text-navy-dark transition-all hover:bg-gold-light hover:shadow-lg"
@@ -127,11 +107,7 @@ export default function Hero() {
         </div>
 
         {/* Stats */}
-        <div
-          className={`mx-auto mt-16 grid max-w-3xl grid-cols-3 gap-8 transition-all duration-1000 delay-1000 ${
-            loaded ? "translate-y-0 opacity-100" : "translate-y-6 opacity-0"
-          }`}
-        >
+        <div className="mx-auto mt-16 grid max-w-3xl grid-cols-3 gap-8">
           <div className="text-center">
             <CountUp 
               target={2500} 
