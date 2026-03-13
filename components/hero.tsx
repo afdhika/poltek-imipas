@@ -83,9 +83,14 @@ export default function Hero() {
             loaded ? "translate-x-0 opacity-100" : "-translate-x-10 opacity-0"
           }`}
         >
-          <div className="mb-4 inline-block rounded-full border border-gold/30 bg-gold/10 px-4 py-1.5 text-xs font-medium tracking-wider text-gold uppercase">
+          <a 
+            href="https://kemenimipas.go.id/" 
+            target="_blank" 
+            rel="noopener noreferrer"
+            className="mb-4 inline-block rounded-full border border-gold/30 bg-gold/10 px-4 py-1.5 text-xs font-medium tracking-wider text-gold uppercase transition-all duration-300 hover:bg-gold/20 hover:border-gold/50 hover:shadow-lg hover:shadow-gold/20"
+          >
             Kementerian Imigrasi dan Pemasyarakatan RI
-          </div>
+          </a>
         </div>
 
         <h1
