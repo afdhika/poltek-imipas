@@ -676,7 +676,7 @@ export default function Navbar({ onSearchOpen }: NavbarProps) {
               />
               <div className="logo-text-group">
                 <div className="logo-text-main">POLTEKI<span>MI</span>PAS</div>
-                <div className="logo-text-sub">Politeknik Ilmu Pemasyarakatan</div>
+                <div className="logo-text-sub">Politeknik Imigrasi Pemasyarakatan</div>
               </div>
             </Link>
 

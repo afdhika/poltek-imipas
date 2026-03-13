@@ -94,7 +94,7 @@ export default function Hero() {
           }`}
           style={{ fontFamily: "var(--font-poppins)" }}
         >
-          Politeknik Ilmu
+          Politeknik Imigrasi
           <br />
           <span className="text-gold">Pemasyarakatan</span>
         </h1>

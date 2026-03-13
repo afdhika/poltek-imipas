@@ -5,7 +5,7 @@ import { Shield, Target, Eye, BookOpen } from "lucide-react"
 const milestones = [
   { year: "1964", text: "Didirikan sebagai lembaga pendidikan pemasyarakatan" },
   { year: "1998", text: "Menjadi Akademi Ilmu Pemasyarakatan (AKIP)" },
-  { year: "2012", text: "Bertransformasi menjadi Politeknik Ilmu Pemasyarakatan" },
+  { year: "2012", text: "Bertransformasi menjadi Politeknik Imigrasi Pemasyarakatan" },
   { year: "2024", text: "Berada di bawah Kementerian Imigrasi dan Pemasyarakatan RI" },
 ]
 
@@ -31,7 +31,7 @@ export default function About() {
           {/* Left - Description */}
           <div>
             <p className="mb-6 leading-relaxed text-muted-foreground">
-              Politeknik Ilmu Pemasyarakatan (POLTEKIMIPAS) adalah perguruan tinggi kedinasan
+              Politeknik Imigrasi Pemasyarakatan (POLTEKIMIPAS) adalah perguruan tinggi kedinasan
               yang berada di bawah naungan Kementerian Imigrasi dan Pemasyarakatan Republik
               Indonesia. Sejak didirikan pada tahun 1964, POLTEKIMIPAS telah mencetak ribuan
               lulusan yang berdedikasi dalam bidang pemasyarakatan dan bimbingan kemasyarakatan.

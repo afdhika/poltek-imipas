@@ -348,7 +348,7 @@ export default function Footer() {
                 <div className="footer-logo-badge">P</div>
                 <div>
                   <div className="footer-logo-name">POLTEKIMIPAS</div>
-                  <div className="footer-logo-sub">Politeknik Ilmu Pemasyarakatan</div>
+                  <div className="footer-logo-sub">Politeknik Imigrasi Pemasyarakatan</div>
                 </div>
               </a>
               <p className="footer-desc">
@@ -419,7 +419,7 @@ export default function Footer() {
 
         <div className="footer-bottom">
           <span className="footer-bottom-text">
-            &copy; {new Date().getFullYear()} Politeknik Ilmu Pemasyarakatan. Hak Cipta Dilindungi.
+            &copy; {new Date().getFullYear()} Politeknik Imigrasi Pemasyarakatan. Hak Cipta Dilindungi.
           </span>
           <div className="footer-bottom-right">
             <span className="footer-bottom-text">Kementerian Imigrasi dan Pemasyarakatan</span>
