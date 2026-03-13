@@ -1,7 +1,7 @@
 "use client"
 
 import { useState, useEffect, useRef } from "react"
-import { Menu, X, Search, ChevronDown } from "lucide-react"
+import { Search, ChevronDown } from "lucide-react"
 import Link from "next/link"
 
 const navItems = [
@@ -171,8 +171,6 @@ export default function Navbar({ onSearchOpen }: NavbarProps) {
         }
         .nav-body {
           background: rgba(10, 22, 40, 0.85);
-          backdrop-filter: blur(12px);
-          -webkit-backdrop-filter: blur(12px);
           padding: 12px 0;
           transition: all 0.35s cubic-bezier(0.4, 0, 0.2, 1);
           border-bottom: 1px solid transparent;
