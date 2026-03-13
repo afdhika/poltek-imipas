@@ -1,7 +1,7 @@
 "use client"
 
 import { useState, useEffect, useRef } from "react"
-import { Menu, X, Search, Globe, ChevronDown } from "lucide-react"
+import { Menu, X, Search, ChevronDown } from "lucide-react"
 import Link from "next/link"
 
 const navItems = [
@@ -33,7 +33,6 @@ interface NavbarProps {
 export default function Navbar({ onSearchOpen }: NavbarProps) {
   const [scrolled, setScrolled] = useState(false)
   const [mobileOpen, setMobileOpen] = useState(false)
-  const [lang, setLang] = useState<"ID" | "EN">("ID")
   const [activeDropdown, setActiveDropdown] = useState<string | null>(null)
   const [activeLink, setActiveLink] = useState("Beranda")
   const [mobileExpanded, setMobileExpanded] = useState<string | null>(null)
@@ -649,18 +648,13 @@ export default function Navbar({ onSearchOpen }: NavbarProps) {
         <div className="topbar">
           <div className="topbar-inner">
             <div className="topbar-left">
-              <span className="topbar-badge">Resmi</span>
+              <span className="topbar-badge">Official</span>
               <span className="topbar-text">Kementerian Imigrasi dan Pemasyarakatan Republik Indonesia</span>
             </div>
             <div className="topbar-right">
               <span className="topbar-date" style={{ fontSize: '10px', color: 'rgba(255,255,255,0.3)', letterSpacing: '0.05em' }}>
                 {new Date().toLocaleDateString('id-ID', { weekday: 'short', day: 'numeric', month: 'short', year: 'numeric' })}
               </span>
-              <div className="topbar-divider" />
-              <button className="lang-btn" onClick={() => setLang(lang === "ID" ? "EN" : "ID")}>
-                <Globe style={{ width: 11, height: 11 }} />
-                {lang}
-              </button>
             </div>
           </div>
         </div>
@@ -743,7 +737,6 @@ export default function Navbar({ onSearchOpen }: NavbarProps) {
                     <Search style={{ width: 12, height: 12 }} />
                   </span>
                   Cari sesuatu...
-                  <span className="search-pill-kbd">⌘K</span>
                 </button>
               )}
 
